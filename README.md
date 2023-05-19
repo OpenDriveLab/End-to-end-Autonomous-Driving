@@ -10,26 +10,42 @@ Frontiers and Challenges for End-to-end Autonomous Driving
 
 ## At-a-Glance
 
+![](figs/overview.jpg)
+
 TODO
 
 ## Paper Collection
+
+xxx categorized in topics.
+
+### Survey
+- A Survey of End-to-End Driving: Architectures and Training Methods [[TNNLS2020]](https://arxiv.org/abs/2003.06404)
+- A Survey of Deep RL and IL for Autonomous Driving Policy Learning [[TITS2021]](https://arxiv.org/abs/2101.01993)
+- A Survey on Imitation Learning Techniques for End-to-End Autonomous Vehicles [[TITS2022]](https://arxiv.org/abs/2101.01993)
+- 
+
 ### Multi-modal Fusion
-- Safety-enhanced autonomous driving using interpretable sensor fusion transformer(CoRL, 2022)[[Paper]](https://arxiv.org/abs/2207.14024) [[Code]](https://github.com/opendilab/InterFuser)![](https://img.shields.io/github/stars/opendilab/InterFuser.svg?style=social&label=Star&maxAge=2592000)
+- Think Twice before Driving: Towards Scalable Decoders for End-to-End Autonomous Driving [[CVPR2023]](https://arxiv.org/abs/2305.06242)[[code]](https://github.com/OpenDriveLab/ThinkTwice)![](https://img.shields.io/github/stars/OpenDriveLab/ThinkTwice.svg?style=social&label=Star&maxAge=2592000)
 
-- Multi-modal fusion transformer for end-to-end autonomous driving(CVPR, 2021)[[Paper]](https://arxiv.org/abs/2104.09224)[[Code]](https://github.com/autonomousvision/transfuser.git)![](https://img.shields.io/github/stars/autonomousvision/transfuser.svg?style=social&label=Star&maxAge=2592000)
-    
-- Transfuser: Imitation with transformer-based sensor fusion for autonomous driving(PAMI,2022)[[Paper]](https://arxiv.org/abs/2205.15997)[[Code]](https://github.com/autonomousvision/transfuser.git)![](https://img.shields.io/github/stars/autonomousvision/transfuser.svg?style=social&label=Star&maxAge=2592000)
-    
-- Probabilistic end-to-end vehicle navigation in complex dynamic environments with multimodal sensor fusion(RAL, 2020)[[Paper]](https://arxiv.org/abs/2005.01935)
+- ReasonNet: End-to-End Driving with Temporal and Global Reasoning [[CVPR2023]](https://arxiv.org/abs/2305.10507)
 
-- Learning from all vehicles(CVPR, 2022)[[Paper]](http://arxiv.org/pdf/1709.04622v4)[[Code]](https://github.com/dotchen/LAV.git)![](https://img.shields.io/github/stars/dotchen/LAV.svg?style=social&label=Star&maxAge=2592000)
+- Safety-enhanced autonomous driving using interpretable sensor fusion transformer [[CoRL2022]](https://arxiv.org/abs/2207.14024) [[Code]](https://github.com/opendilab/InterFuser)![](https://img.shields.io/github/stars/opendilab/InterFuser.svg?style=social&label=Star&maxAge=2592000)
+
+- Multi-modal fusion transformer for end-to-end autonomous driving [[CVPR2021]](https://arxiv.org/abs/2104.09224)[[Code]](https://github.com/autonomousvision/transfuser.git)![](https://img.shields.io/github/stars/autonomousvision/transfuser.svg?style=social&label=Star&maxAge=2592000)
     
-- Urban driving with conditional imitation learning(ICRA, 2020)[[Paper]](http://arxiv.org/pdf/1912.00177v2)
+- Transfuser: Imitation with transformer-based sensor fusion for autonomous driving [[TPAMI2022]](https://arxiv.org/abs/2205.15997)[[Code]](https://github.com/autonomousvision/transfuser.git)![](https://img.shields.io/github/stars/autonomousvision/transfuser.svg?style=social&label=Star&maxAge=2592000)
+    
+- Probabilistic end-to-end vehicle navigation in complex dynamic environments with multimodal sensor fusion [[RAL2020]](https://arxiv.org/abs/2005.01935)
+
+- Learning from all vehicles [[CVPR2022]](http://arxiv.org/pdf/1709.04622v4)[[Code]](https://github.com/dotchen/LAV.git)![](https://img.shields.io/github/stars/dotchen/LAV.svg?style=social&label=Star&maxAge=2592000)
+    
+- Urban driving with conditional imitation learning [[ICRA2020]](http://arxiv.org/pdf/1912.00177v2)
     
 - Multi-modal sensor fusion-based deep neural network for end-to-end autonomous driving with scene understanding(IEEESJ, 2020)
-- Intentnet: Learning to predict intention from raw sensor data(CoRL, 2018)[[Paper]](https://arxiv.org/abs/2101.07907)
+
+- Intentnet: Learning to predict intention from raw sensor data [[CoRL2018]](https://arxiv.org/abs/2101.07907)
     
-- Coopernaut: End-to-end driving with cooperative perception for networked vehicles(CVPR, 2022)[[Paper]](https://arxiv.org/abs/2205.02222)[[Code]](https://github.com/UT-Austin-RPL/Coopernaut.git)![](https://img.shields.io/github/stars/UT-Austin-RPL/Coopernaut.svg?style=social&label=Star&maxAge=2592000)
+- Coopernaut: End-to-end driving with cooperative perception for networked vehicles [[CVPR2022]](https://arxiv.org/abs/2205.02222)[[Code]](https://github.com/UT-Austin-RPL/Coopernaut.git)![](https://img.shields.io/github/stars/UT-Austin-RPL/Coopernaut.svg?style=social&label=Star&maxAge=2592000)
     
 - Deep federated learning for autonomous driving(IV, 2022)[[Paper]](http://arxiv.org/pdf/2110.05754v2)[[Code]](https://github.com/aioz-ai/FADNet.git)![](https://img.shields.io/github/stars/aioz-ai/FADNet.svg?style=social&label=Star&maxAge=2592000)
     
@@ -410,13 +426,30 @@ TODO
 
 
 ## Benchmark and Dataset
-- Carla
-- nuPlan
-- AV2
+### Closed-loop
+- [CARLA](https://carla.org/)
+- [CARLA Leaderboard](https://leaderboard.carla.org/leaderboard/)
+- [nuPlan](https://www.nuscenes.org/nuplan)
+
+### Open-loop
+- [nuScenes](https://www.nuscenes.org/nuscenes)
+- [Argoverse](https://www.argoverse.org/av2.html)
+- [Waymo Open Dataset](https://waymo.com/open/)
 
 ## Contributing
-Thank you for all your contributions. Please make sure to read the [contributing guide](xxx.md) before you make a pull request.
+Thank you for all your contributions. Please make sure to read the [contributing guide](./CONTRIBUTING.md) before you make a pull request.
 
 
 ## License
-New Outlooks on End-to-end Autonomous Driving is released under the Apache 2.0 license.
+New Outlooks on End-to-end Autonomous Driving is released under the [MIT license](./LICENSE).
+
+
+## Citation
+```BibTeX
+@article{chen2023e2esurvey,
+  title={End-to-End Autonomous Driving: Challenges and Frontiers},
+  author={Chen, Li and Wu, Penghao and Chitta, Kashyap and Jaeger, Bernhard and Geiger, Andreas and Li, Hongyang},
+  journal={arXiv preprint arXiv:},
+  year={2023}
+}
+```
