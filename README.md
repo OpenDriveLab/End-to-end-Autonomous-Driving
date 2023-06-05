@@ -1,16 +1,16 @@
 # End-to-end-Autonomous-Driving
-Frontiers and Challenges for End-to-end Autonomous Driving
+Frontiers and Challenges for End-to-end Autonomous Driving. This repo is all you need for end-to-end autonomous driving research. We present awesome talks, comprehensive paper collections, benchmarks, challenges, etc.
 
-![](https://img.shields.io/badge/Record-84-673ab7.svg)
+![](https://img.shields.io/badge/Record-137-673ab7.svg)
 ![](https://img.shields.io/badge/License-MIT-lightgrey.svg)
-
-> background
 
 ## Table of Contents
 
 - [End-to-end-Autonomous-Driving](#end-to-end-autonomous-driving)
   - [Table of contents](#table-of-contents)
   - [At-a-Glance](#at-a-glance)
+  - [Learning Materials for New Beginners](#learning-materials-for-new-beginners)
+  - [Workshop](#workshop)
   - [Paper Collection](#paper-collection)
     - [Survey](#survey)
     - [Multi-sensor Fusion](#multi-sensor-fusion)
@@ -35,22 +35,48 @@ Frontiers and Challenges for End-to-end Autonomous Driving
     - [Transformer](#transformer)
     - [V2V Cooperative](#v2v-cooperative)
     - [Distributed](#distributed)
-   - [Benchmark and Dataset](#benchmark-and-dataset)
+  - [Benchmark and Dataset](#benchmark-and-dataset)
     - [Closed-loop](#closed-loop)
-    - [Open-loop](#open-loop)   
-   - [Contributing](#contributing)
-   - [License](#license)
-   - [Citation](#citation)
+    - [Open-loop](#open-loop)
+  - [Competition / Challenges](#competition--challenges) 
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Citation](#citation)
 
 ## At-a-Glance
 
 ![](figs/overview.jpg)
 
-TODO
+Instead of concentrating on individual tasks such as detection, prediction, etc., the autonomous driving community has witnessed rapid growth in approaches that embrace an end-to-end algorithm framework with raw sensor input to control signal output.  In this survey, we provide a comprehensive analysis of more than 250 papers on the motivation, roadmap, methodology, challenges, and future trends in end-to-end autonomous driving. More details can be found in the [survey paper]().
+
+``
+If you find some work popular or useful enough to be cited below, shoot us email or simply open a PR!
+``
+
+
+## Learning Materials for New Beginners
+- [Lecture: Self-Driving Cars](https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/lectures/self-driving-cars/), Andreas Geiger, University of Tübingen, Germany
+
+## Workshop
+- [CVPR 2023] [Workshop on End-to-end Autonomous Driving](https://opendrivelab.com/e2ead/cvpr23.html)
+- [CVPR 2023] [End-to-End Autonomous Driving: Perception, Prediction, Planning and Simulation](https://e2ead.github.io/2023.html)
+- [NeurIPS 2022] [Machine Learning for Autonomous Driving](https://ml4ad.github.io/)
+- [IROS 2022] [Behavior-driven Autonomous Driving in Unstructured Environments](https://gamma.umd.edu/workshops/badue22/)
+- [NeurIPS 2021] [Machine Learning for Autonomous Driving](https://ml4ad.github.io/2021/)
+- [NeurIPS 2020] [Machine Learning for Autonomous Driving](https://ml4ad.github.io/2020/)
+
+
+<details>
+  <summary>Awesome Talks (IO workshops)</summary>
+  
+  - [Learning Robust Policies for Self-Driving](https://www.youtube.com/watch?v=rm-1sPQV4zg) - Andreas Geiger, AVVision: Autonomous Vehicle Vision Workshop, ECCV 2022
+  -
+  
+</details>
+
 
 ## Paper Collection
-
-xxx categorized in topics.
+We list key challenges from a wide span of candidate concerns, as well as trending methodologies.
 
 ### Survey
 - End-to-End Autonomous Driving: Challenges and Frontiers [[arXiv]]()
@@ -58,8 +84,6 @@ xxx categorized in topics.
 - Motion Planning for Autonomous Driving: The State of the Art and Future Perspectives [[TIV2023]](https://arxiv.org/abs/2303.09824)
 
 - Imitation Learning: Progress, Taxonomies and Challenges [[TNNLS2022]](https://arxiv.org/abs/2106.12177)
-
-- A Survey on Imitation Learning Techniques for End-to-End Autonomous Vehicles [[TITS2022]](https://ieeexplore.ieee.org/abstract/document/9700770)
 
 - A Review of End-to-End Autonomous Driving in Urban Environments [[Access2022]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9832636)
 
@@ -252,8 +276,8 @@ xxx categorized in topics.
 #### Linguistic Explainability
 - ADAPT: Action-aware Driving Caption Transformer [[ICRA2023]](https://arxiv.org/abs/2302.00673)[[Code]](https://github.com/jxbbb/ADAPT)![](https://img.shields.io/github/stars/jxbbb/ADAPT.svg?style=social&label=Star&maxAge=2592000)
 
-- Driving Behavior Explanation with Multi-level Fusion [[PR2022]](https://www.sciencedirect.com/science/article/abs/pii/S0031320321005975
-)
+- Driving Behavior Explanation with Multi-level Fusion [[PR2022]](https://www.sciencedirect.com/science/article/abs/pii/S0031320321005975)
+
 - Explainable Object-Induced Action Decision for Autonomous Vehicles [[CVPR2020]](https://openaccess.thecvf.com/content_CVPR_2020/html/Xu_Explainable_Object-Induced_Action_Decision_for_Autonomous_Vehicles_CVPR_2020_paper.html)
 
 - Textual Explanations for Self-Driving Vehicles [[ECCV2018]](https://openaccess.thecvf.com/content_ECCV_2018/html/Jinkyu_Kim_Textual_Explanations_for_ECCV_2018_paper.html)[[Code]](https://github.com/JinkyuKimUCB/explainable-deep-driving)![](https://img.shields.io/github/stars/JinkyuKimUCB/explainable-deep-driving.svg?style=social&label=Star&maxAge=2592000)
@@ -520,7 +544,7 @@ xxx categorized in topics.
 
 - Multi-Modal Fusion Transformer for End-to-End Autonomous Driving [[CVPR2021]](https://arxiv.org/abs/2104.09224)[[Code]](https://github.com/autonomousvision/transfuser.git)![](https://img.shields.io/github/stars/autonomousvision/transfuser.svg?style=social&label=Star&maxAge=2592000)
         
-### v2v cooperative
+### V2V Cooperative
 - CADRE: A Cascade Deep Reinforcement Learning Framework for Vision-Based Autonomous Urban Driving [[AAAI2022]](https://arxiv.org/abs/2202.08557)[[Code]](https://github.com/BIT-MCS/Cadre.git)![](https://img.shields.io/github/stars/BIT-MCS/Cadre.svg?style=social&label=Star&maxAge=2592000)
 
 - COOPERNAUT: End-to-End Driving with Cooperative Perception for Networked Vehicles [[CVPR2022]](https://arxiv.org/abs/2205.02222)[[Code]](https://github.com/UT-Austin-RPL/Coopernaut.git)![](https://img.shields.io/github/stars/UT-Austin-RPL/Coopernaut.svg?style=social&label=Star&maxAge=2592000)
@@ -592,8 +616,16 @@ xxx categorized in topics.
 
 ### Open-loop
 - [nuScenes](https://www.nuscenes.org/nuscenes)
+- [nuPlan](https://www.nuscenes.org/nuplan)
 - [Argoverse](https://www.argoverse.org/av2.html)
 - [Waymo Open Dataset](https://waymo.com/open/)
+
+## Competition / Challenges
+- [nuPlan planning](https://opendrivelab.com/AD23Challenge.html), Workshop on End-to-end Autonomous Driving, CVPR 2023
+- [CARLA Autonomous Driving Challenge 2022](https://ml4ad.github.io/#challenge), Machine Learning for Autonomous Driving, NeurIPS 2022
+- [CARLA Autonomous Driving Challenge 2021](https://ml4ad.github.io/2021/#challenge), Machine Learning for Autonomous Driving, NeurIPS 2021
+- [CARLA Autonomous Driving Challenge 2020](https://ml4ad.github.io/2020/#challenge), Machine Learning for Autonomous Driving, NeurIPS 2020
+
 
 ## Contributing
 Thank you for all your contributions. Please make sure to read the [contributing guide](./CONTRIBUTING.md) before you make a pull request.
@@ -604,6 +636,7 @@ New Outlooks on End-to-end Autonomous Driving is released under the [MIT license
 
 
 ## Citation
+If you find this project useful in your research, please consider cite:
 ```BibTeX
 @article{chen2023e2esurvey,
   title={End-to-End Autonomous Driving: Challenges and Frontiers},
@@ -612,3 +645,6 @@ New Outlooks on End-to-end Autonomous Driving is released under the [MIT license
   year={2023}
 }
 ```
+
+## Contact
+Primary contact: `lihongyang@pjlab.org.cn`. You can also contact: `lichen@pjlab.org.cn`.
