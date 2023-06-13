@@ -68,6 +68,7 @@ If you find some work popular or useful enough to be cited below, shoot us email
 ## Workshop and Talks
 - [CVPR 2023] [Workshop on End-to-end Autonomous Driving](https://opendrivelab.com/e2ead/cvpr23.html)
 - [CVPR 2023] [End-to-End Autonomous Driving: Perception, Prediction, Planning and Simulation](https://e2ead.github.io/2023.html)
+- [ICRA 2023] [Scalable Autonomous Driving](https://sites.google.com/view/icra2023av/home?authuser=0)
 - [NeurIPS 2022] [Machine Learning for Autonomous Driving](https://ml4ad.github.io/)
 - [IROS 2022] [Behavior-driven Autonomous Driving in Unstructured Environments](https://gamma.umd.edu/workshops/badue22/)
 - [NeurIPS 2021] [Machine Learning for Autonomous Driving](https://ml4ad.github.io/2021/)
@@ -78,7 +79,11 @@ If you find some work popular or useful enough to be cited below, shoot us email
   <summary>Awesome Talks (IO workshops)</summary>
   
   - [Learning Robust Policies for Self-Driving](https://www.youtube.com/watch?v=rm-1sPQV4zg) - Andreas Geiger, AVVision: Autonomous Vehicle Vision Workshop, ECCV 2022
-  -
+  - [AV2.0: Learning a Globally Scalable Driving Intelligence](https://www.youtube.com/watch?v=qzo61V7G1EM&t=765s) - Jamie Shotton, Fresh  Perspectives  on  the  Future  of  Autonomous  Driving Workshop, ICRA 2022
+  - [End-to-End Deep Learning for Autonomous Driving](https://sites.google.com/view/cvpr20-scalability/archived-talks/keynotes?authuser=0) - Alex Kendall, Workshop on Scalability in Autonomous Driving, CVPR 2020
+  - [Tesla Autopilot](https://sites.google.com/view/cvpr20-scalability/archived-talks/keynotes?authuser=0) - Andrej Karpathy, Workshop on Scalability in Autonomous Driving, CVPR 2020
+  - [Autonomous Driving: The Way Forward](https://www.youtube.com/watch?v=XmtTjqimW3g) -  Vladlen Koltun, Workshop on AI for Autonomous Driving, ICML 2020
+  - [Feedback in Imitation Learning: Confusion on Causality and Covariate Shift](https://www.youtube.com/watch?v=4VAwdCIBTG8) -  Sanjiban Choudhury and Arun Venkatraman, Workshop on AI for Autonomous Driving, ICML 2020
   
 </details>
   
