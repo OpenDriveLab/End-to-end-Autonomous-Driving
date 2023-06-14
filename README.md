@@ -1,9 +1,8 @@
 <div id="top">
 
 # End-to-end Autonomous Driving
-Frontiers and Challenges for End-to-end Autonomous Driving. 
 
-**This repo is all you need for end-to-end autonomous driving research.** We present awesome talks, comprehensive paper collections, benchmarks, and challenges.
+> **This repo is all you need for end-to-end autonomous driving research.** We present awesome talks, comprehensive paper collections, benchmarks, and challenges.
 
 <!-- ![](https://img.shields.io/badge/Record-137-673ab7.svg)
 ![](https://img.shields.io/badge/License-MIT-lightgrey.svg) -->
@@ -11,11 +10,11 @@ Frontiers and Challenges for End-to-end Autonomous Driving.
 ## Table of Contents
 
 - [At a Glance](#at-a-glance)
-- [Learning Materials for New Beginners](#learning-materials-for-new-beginners)
+- [Learning Materials for Beginners](#learning-materials-for-beginners)
 - [Workshops and Talks](#workshops-and-talks)
 - [Paper Collection](#paper-collection)
-- [Benchmark and Dataset](#benchmark-and-dataset)
-- [Competition / Challenges](#competition--challenges) 
+- [Benchmarks and Datasets](#benchmarks-and-datasets)
+- [Competitions / Challenges](#competitions--challenges) 
 - [Contributing](#contributing)
 - [License](#license)
 - [Citation](#citation)
@@ -23,9 +22,20 @@ Frontiers and Challenges for End-to-end Autonomous Driving.
 
 ## At a Glance
 
+The autonomous driving community has witnessed a rapid growth in approaches that embrace an end-to-end algorithm framework, utilizing raw sensor input to generate vehicle motion plans, instead of concentrating on individual tasks such as detection and motion prediction. In this survey, we provide a comprehensive analysis of more than 250 papers on the motivation, roadmap, methodology, challenges, and future trends in end-to-end autonomous driving. More details can be found in our survey paper.
+
+> [**End-to-end Autonomous Driving: Challenges and Frontiers**]()
+>
+> [Penghao Wu](https://scholar.google.com/citations?user=9mssd5EAAAAJ&hl=en)<sup>1</sup>, [Li Chen](https://scholar.google.com/citations?user=ulZxvY0AAAAJ&hl=en&authuser=1)<sup>1</sup>, [Kashyap Chitta](https://kashyap7x.github.io/)<sup>2,3</sup>, [Bernhard Jaeger](https://kait0.github.io/)<sup>2,3</sup>, [Andreas Geiger](https://www.cvlibs.net/)<sup>2,3</sup>, and [Hongyang Li](https://lihongyang.info/)<sup>1,4</sup>
+> 
+> <sup>1</sup> Shanghai AI Lab, <sup>2</sup> University of Tübingen, <sup>3</sup> Tübingen AI Center, <sup>4</sup> Shanghai Jiao Tong University
+>
+
+<br/>
+
 ![](figs/overview.jpg)
 
-The autonomous driving community has witnessed a rapid growth in approaches that embrace an end-to-end algorithm framework, utilizing raw sensor input to generate vehicle motion plans, instead of concentrating on individual tasks such as detection and motion prediction.  In this survey, we provide a comprehensive analysis of more than 250 papers on the motivation, roadmap, methodology, challenges, and future trends in end-to-end autonomous driving. More details can be found in the survey paper "[End-to-End Autonomous Driving: Challenges and Frontiers]()".
+<br/>
 
 ``
 If you find some useful related materials, shoot us an email or simply open a PR!
@@ -34,7 +44,7 @@ If you find some useful related materials, shoot us an email or simply open a PR
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-## Learning Materials for New Beginners
+## Learning Materials for Beginners
 - [Lecture: Self-Driving Cars](https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/lectures/self-driving-cars/), Andreas Geiger, University of Tübingen, Germany
 - [Self-Driving Cars Specialization](https://www.coursera.org/specializations/self-driving-cars), University of Toronto, Coursera
 - [The Complete Self-Driving Car Course - Applied Deep Learning](https://www.udemy.com/course/applied-deep-learningtm-the-complete-self-driving-car-course/), Udemy
@@ -43,6 +53,8 @@ If you find some useful related materials, shoot us an email or simply open a PR
 <p align="right">(<a href="#top">back to top</a>)</p>
   
 ## Workshops and Talks
+
+**Workshops**
 - [CVPR 2023] [Workshop on End-to-end Autonomous Driving](https://opendrivelab.com/e2ead/cvpr23.html)
 - [CVPR 2023] [End-to-End Autonomous Driving: Perception, Prediction, Planning and Simulation](https://e2ead.github.io/2023.html)
 - [ICRA 2023] [Scalable Autonomous Driving](https://sites.google.com/view/icra2023av/home?authuser=0)
@@ -53,7 +65,7 @@ If you find some useful related materials, shoot us an email or simply open a PR
 
 
 <details>
-  <summary>Awesome Talks (IO workshops)</summary>
+  <summary>Relevant talks from other workshops</summary>
   
   - [Learning Robust Policies for Self-Driving](https://www.youtube.com/watch?v=rm-1sPQV4zg) - Andreas Geiger, AVVision: Autonomous Vehicle Vision Workshop, ECCV 2022
   - [AV2.0: Learning a Globally Scalable Driving Intelligence](https://www.youtube.com/watch?v=qzo61V7G1EM&t=765s) - Jamie Shotton, Fresh Perspectives on the Future of Autonomous Driving Workshop, ICRA 2022
@@ -92,36 +104,37 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 - [Transformer](./papers.md#transformer)
 - [V2V Cooperative](./papers.md#v2v-cooperative)
 - [Distributed RL](./papers.md#distributed-rl)
-- [Data-driven Simulation](#data-driven-simulation)
+- [Data-driven Simulation](./papers.md#data-driven-simulation)
   - [Parameter Initialization](./papers.md#parameter-initialization)
   - [Traffic Simulation](./papers.md#traffic-simulation)
   - [Sensor Simulation](./papers.md#sensor-simulation)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Benchmark and Dataset
+## Benchmarks and Datasets
 
-### Closed-loop
-- [CARLA](https://carla.org/)
-  - [GitHub](https://github.com/carla-simulator/carla)
-  - [Awesome CARLA](https://github.com/Amin-Tgz/awesome-CARLA)
-  - [DI-drive](https://github.com/opendilab/DI-drive)
-- [CARLA Leaderboard](https://leaderboard.carla.org/leaderboard/)
+**Closed-loop**
+- [CARLA](https://leaderboard.carla.org/leaderboard/)
   - [Leaderboard 1.0](https://leaderboard.carla.org/get_started_v1/)
   - [Leaderboard 2.0](https://leaderboard.carla.org/get_started/)
-- [nuPlan](https://www.nuscenes.org/nuplan) ([Official Leaderboard](https://eval.ai/web/challenges/challenge-page/1856/overview) is inactive after the CVPR 2023 challege)
+- [nuPlan](https://www.nuscenes.org/nuplan)
+  - [Leaderboard](https://eval.ai/web/challenges/challenge-page/1856/overview) (inactive after the CVPR 2023 challege)
 
-### Open-loop
+<details>
+  <summary>Open-loop</summary>
+  
 - [nuScenes](https://www.nuscenes.org/nuscenes)
 - [nuPlan](https://www.nuscenes.org/nuplan)
 - [Argoverse](https://www.argoverse.org/av2.html)
 - [Waymo Open Dataset](https://waymo.com/open/)
   
+</details>
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Competition / Challenges
+## Competitions / Challenges
 
-- [nuPlan planning](https://opendrivelab.com/AD23Challenge.html), Workshop on End-to-end Autonomous Driving, CVPR 2023
+- [nuPlan planning](https://opendrivelab.com/AD23Challenge.html#nuplan_planning), Workshop on End-to-end Autonomous Driving, CVPR 2023
 - [CARLA Autonomous Driving Challenge 2022](https://ml4ad.github.io/#challenge), Machine Learning for Autonomous Driving, NeurIPS 2022
 - [CARLA Autonomous Driving Challenge 2021](https://ml4ad.github.io/2021/#challenge), Machine Learning for Autonomous Driving, NeurIPS 2021
 - [CARLA Autonomous Driving Challenge 2020](https://ml4ad.github.io/2020/#challenge), Machine Learning for Autonomous Driving, NeurIPS 2020
@@ -136,15 +149,15 @@ Thank you for all your contributions. Please make sure to read the [contributing
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## License
-New Outlooks on End-to-end Autonomous Driving is released under the [MIT license](./LICENSE).
+End-to-end Autonomous Driving is released under the [MIT license](./LICENSE).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Citation
-If you find this project useful in your research, please consider cite:
+If you find this project useful in your research, please consider citing:
 ```BibTeX
 @article{chen2023e2esurvey,
-  title={End-to-End Autonomous Driving: Challenges and Frontiers},
+  title={End-to-end Autonomous Driving: Challenges and Frontiers},
   author={Chen, Li and Wu, Penghao and Chitta, Kashyap and Jaeger, Bernhard and Geiger, Andreas and Li, Hongyang},
   journal={arXiv},
   volume={},
