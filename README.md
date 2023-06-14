@@ -26,7 +26,7 @@ The autonomous driving community has witnessed a rapid growth in approaches that
 
 > [**End-to-end Autonomous Driving: Challenges and Frontiers**]()
 >
-> [Penghao Wu](https://scholar.google.com/citations?user=9mssd5EAAAAJ&hl=en)<sup>1</sup>, [Li Chen](https://scholar.google.com/citations?user=ulZxvY0AAAAJ&hl=en&authuser=1)<sup>1</sup>, [Kashyap Chitta](https://kashyap7x.github.io/)<sup>2,3</sup>, [Bernhard Jaeger](https://kait0.github.io/)<sup>2,3</sup>, [Andreas Geiger](https://www.cvlibs.net/)<sup>2,3</sup>, and [Hongyang Li](https://lihongyang.info/)<sup>1,4</sup>
+> [Li Chen](https://scholar.google.com/citations?user=ulZxvY0AAAAJ&hl=en&authuser=1)<sup>1</sup>, [Penghao Wu](https://scholar.google.com/citations?user=9mssd5EAAAAJ&hl=en)<sup>1</sup>, [Kashyap Chitta](https://kashyap7x.github.io/)<sup>2,3</sup>, [Bernhard Jaeger](https://kait0.github.io/)<sup>2,3</sup>, [Andreas Geiger](https://www.cvlibs.net/)<sup>2,3</sup>, and [Hongyang Li](https://lihongyang.info/)<sup>1,4</sup>
 > 
 > <sup>1</sup> Shanghai AI Lab, <sup>2</sup> University of Tübingen, <sup>3</sup> Tübingen AI Center, <sup>4</sup> Shanghai Jiao Tong University
 >
@@ -45,10 +45,19 @@ If you find some useful related materials, shoot us an email or simply open a PR
 
 
 ## Learning Materials for Beginners
+  
+**Online Courses**
 - [Lecture: Self-Driving Cars](https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/lectures/self-driving-cars/), Andreas Geiger, University of Tübingen, Germany
 - [Self-Driving Cars Specialization](https://www.coursera.org/specializations/self-driving-cars), University of Toronto, Coursera
 - [The Complete Self-Driving Car Course - Applied Deep Learning](https://www.udemy.com/course/applied-deep-learningtm-the-complete-self-driving-car-course/), Udemy
 - [Self-Driving Car Engineer Nanodegree Program](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd0013), Udacity
+
+<details>
+  <summary>Useful Tools</summary>
+  
+  - Under construction!
+  
+</details>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
   
@@ -60,17 +69,16 @@ If you find some useful related materials, shoot us an email or simply open a PR
 - [ICRA 2023] [Scalable Autonomous Driving](https://sites.google.com/view/icra2023av/home?authuser=0)
 - [NeurIPS 2022] [Machine Learning for Autonomous Driving](https://ml4ad.github.io/)
 - [IROS 2022] [Behavior-driven Autonomous Driving in Unstructured Environments](https://gamma.umd.edu/workshops/badue22/)
+- [ICRA 2022] [Fresh Perspectives on the Future of Autonomous Driving Workshop](https://www.self-driving-cars.org/)
 - [NeurIPS 2021] [Machine Learning for Autonomous Driving](https://ml4ad.github.io/2021/)
 - [NeurIPS 2020] [Machine Learning for Autonomous Driving](https://ml4ad.github.io/2020/)
+- [CVPR 2020] [Workshop on Scalability in Autonomous Driving](https://sites.google.com/view/cvpr20-scalability)
 
 
 <details>
   <summary>Relevant talks from other workshops</summary>
   
   - [Learning Robust Policies for Self-Driving](https://www.youtube.com/watch?v=rm-1sPQV4zg) - Andreas Geiger, AVVision: Autonomous Vehicle Vision Workshop, ECCV 2022
-  - [AV2.0: Learning a Globally Scalable Driving Intelligence](https://www.youtube.com/watch?v=qzo61V7G1EM&t=765s) - Jamie Shotton, Fresh Perspectives on the Future of Autonomous Driving Workshop, ICRA 2022
-  - [End-to-End Deep Learning for Autonomous Driving](https://sites.google.com/view/cvpr20-scalability/archived-talks/keynotes?authuser=0) - Alex Kendall, Workshop on Scalability in Autonomous Driving, CVPR 2020
-  - [Tesla Autopilot](https://sites.google.com/view/cvpr20-scalability/archived-talks/keynotes?authuser=0) - Andrej Karpathy, Workshop on Scalability in Autonomous Driving, CVPR 2020
   - [Autonomous Driving: The Way Forward](https://www.youtube.com/watch?v=XmtTjqimW3g) -  Vladlen Koltun, Workshop on AI for Autonomous Driving, ICML 2020
   - [Feedback in Imitation Learning: Confusion on Causality and Covariate Shift](https://www.youtube.com/watch?v=4VAwdCIBTG8) -  Sanjiban Choudhury and Arun Venkatraman, Workshop on AI for Autonomous Driving, ICML 2020
   
