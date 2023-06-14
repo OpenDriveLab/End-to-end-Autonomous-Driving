@@ -28,6 +28,9 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 - [V2V Cooperative](#v2v-cooperative)
 - [Distributed RL](#distributed-rl)
 - [Data-driven Simulation](#data-driven-simulation)
+  - [Parameter Initialization](#parameter-initialization)
+  - [Traffic Simulation](#traffic-simulation)
+  - [Sensor Simulation](#sensor-simulation)
 
 
 ## Survey
@@ -66,6 +69,8 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 - Think Twice before Driving: Towards Scalable Decoders for End-to-End Autonomous Driving [[CVPR2023]](https://arxiv.org/abs/2305.06242)[[code]](https://github.com/OpenDriveLab/ThinkTwice)![](https://img.shields.io/github/stars/OpenDriveLab/ThinkTwice.svg?style=social&label=Star&maxAge=2592000)
 
 - ReasonNet: End-to-End Driving with Temporal and Global Reasoning [[CVPR2023]](https://arxiv.org/abs/2305.10507)
+
+- Hidden Biases of End-to-End Driving Models [[arXiv2023]](https://arxiv.org/abs/2306.07957)[[code]](https://github.com/autonomousvision/carla_garage)![](https://img.shields.io/github/stars/autonomousvision/carla_garage.svg?style=social&label=Star&maxAge=2592000)
 
 - Enhance Sample Efficiency and Robustness of End-to-end Urban Autonomous Driving via Semantic Masked World Model [[NeurIPSWorkshop2022]](https://arxiv.org/abs/2210.04017)
 
@@ -145,9 +150,11 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 - ReasonNet: End-to-End Driving with Temporal and Global Reasoning [[CVPR2023]](https://arxiv.org/abs/2305.10507)
 
+- Hidden Biases of End-to-End Driving Models [[arXiv2023]](https://arxiv.org/abs/2306.07957)[[code]](https://github.com/autonomousvision/carla_garage)![](https://img.shields.io/github/stars/autonomousvision/carla_garage.svg?style=social&label=Star&maxAge=2592000)
+
 - TransFuser: Imitation with Transformer-Based Sensor Fusion for Autonomous Driving [[TPAMI2022]](https://arxiv.org/abs/2205.15997)[[Code]](https://github.com/autonomousvision/transfuser.git)![](https://img.shields.io/github/stars/autonomousvision/transfuser.svg?style=social&label=Star&maxAge=2592000)
     
-- Trajectory-guided Control Prediction for End-to-end Autonomous Driving: A Simple yet Strong Baseline [[NeurIPS2022]](https://arxiv.org/abs/2206.08129) [[code]](https://github.com/OpenPerceptionX/TCP)![](https://img.shields.io/github/stars/OpenPerceptionX/TCP.svg?style=social&label=Star&maxAge=2592000)
+- Trajectory-guided Control Prediction for End-to-end Autonomous Driving: A Simple yet Strong Baseline [[NeurIPS2022]](https://arxiv.org/abs/2206.08129) [[code]](https://github.com/OpenDriveLab/TCP)![](https://img.shields.io/github/stars/OpenDriveLab/TCP.svg?style=social&label=Star&maxAge=2592000)
 
 - Safety-Enhanced Autonomous Driving Using Interpretable Sensor Fusion Transformer [[CoRL2022]](https://arxiv.org/abs/2207.14024)[[Code]](https://github.com/opendilab/InterFuser)![](https://img.shields.io/github/stars/opendilab/InterFuser.svg?style=social&label=Star&maxAge=2592000)
 
@@ -222,6 +229,8 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 - Planning-oriented Autonomous Driving [[CVPR2023]](https://arxiv.org/abs/2212.10156)[[Code]](https://github.com/OpenDriveLab/UniAD)![](https://img.shields.io/github/stars/OpenDriveLab/UniAD.svg?style=social&label=Star&maxAge=2592000)
 
+- Hidden Biases of End-to-End Driving Models [[arXiv2023]](https://arxiv.org/abs/2306.07957)[[code]](https://github.com/autonomousvision/carla_garage)![](https://img.shields.io/github/stars/autonomousvision/carla_garage.svg?style=social&label=Star&maxAge=2592000)
+
 - Safety-Enhanced Autonomous Driving Using Interpretable Sensor Fusion Transformer [[CoRL2022]](https://arxiv.org/abs/2207.14024)[[Code]](https://github.com/opendilab/InterFuser)![](https://img.shields.io/github/stars/opendilab/InterFuser.svg?style=social&label=Star&maxAge=2592000)
 
 - TransFuser: Imitation with Transformer-Based Sensor Fusion for Autonomous Driving [[TPAMI2022]](https://arxiv.org/abs/2205.15997)[[Code]](https://github.com/autonomousvision/transfuser.git)![](https://img.shields.io/github/stars/autonomousvision/transfuser.svg?style=social&label=Star&maxAge=2592000)
@@ -254,7 +263,7 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 <!-- <details><summary>(Click for details)</summary> -->
 
-- ST-P3: End-to-end Vision-based Autonomous Driving via Spatial-Temporal Feature Learning [[ECCV2022]](https://arxiv.org/abs/2207.07601)[[Code]](https://github.com/OpenPerceptionX/ST-P3)![](https://img.shields.io/github/stars/OpenPerceptionX/ST-P3.svg?style=social&label=Star&maxAge=2592000)
+- ST-P3: End-to-end Vision-based Autonomous Driving via Spatial-Temporal Feature Learning [[ECCV2022]](https://arxiv.org/abs/2207.07601)[[Code]](https://github.com/OpenDriveLab/ST-P3)![](https://img.shields.io/github/stars/OpenDriveLab/ST-P3.svg?style=social&label=Star&maxAge=2592000)
 
 - Differentiable Raycasting for Self-Supervised Occupancy Forecasting [[ECCV2022]](https://arxiv.org/abs/2210.01917)[[Code]](https://github.com/tarashakhurana/emergent-occ-forecasting.git)![](https://img.shields.io/github/stars/tarashakhurana/emergent-occ-forecasting.svg?style=social&label=Star&maxAge=2592000)
 
@@ -350,7 +359,7 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 - Coaching a Teachable Student [[CVPR2023]](https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Coaching_a_Teachable_Student_CVPR_2023_paper.html)
 
-- Trajectory-guided Control Prediction for End-to-end Autonomous Driving: A Simple yet Strong Baseline [[NeurIPS2022]](https://arxiv.org/abs/2206.08129)[[code]](https://github.com/OpenPerceptionX/TCP)![](https://img.shields.io/github/stars/OpenPerceptionX/TCP.svg?style=social&label=Star&maxAge=2592000)
+- Trajectory-guided Control Prediction for End-to-end Autonomous Driving: A Simple yet Strong Baseline [[NeurIPS2022]](https://arxiv.org/abs/2206.08129)[[code]](https://github.com/OpenDriveLab/TCP)![](https://img.shields.io/github/stars/OpenDriveLab/TCP.svg?style=social&label=Star&maxAge=2592000)
 
 - Learning from All Vehicles [[CVPR2022]](http://arxiv.org/pdf/1709.04622v4)[[Code]](https://github.com/dotchen/LAV.git)![](https://img.shields.io/github/stars/dotchen/LAV.svg?style=social&label=Star&maxAge=2592000)
 
@@ -524,9 +533,15 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 <!-- <details><summary>(Click for details)</summary> -->
 
+- Safety-Enhanced Autonomous Driving Using Interpretable Sensor Fusion Transformer [[CoRL2022]](https://arxiv.org/abs/2207.14024)[[Code]](https://github.com/opendilab/InterFuser)![](https://img.shields.io/github/stars/opendilab/InterFuser.svg?style=social&label=Star&maxAge=2592000)
+
+- Multi-Task Learning With Attention for End-to-End Autonomous Driving [[CVPRWorkshop2021]](https://arxiv.org/abs/2104.10753)
+
 - Driver Behavioral Cloning for Route Following in Autonomous Vehicles Using Task Knowledge Distillation [[TIV2022]](https://ieeexplore.ieee.org/abstract/document/9857598)
 
 - Policy-Based Reinforcement Learning for Training Autonomous Driving Agents in Urban Areas With Affordance Learning [[TITS2021]](https://ieeexplore.ieee.org/abstract/document/9599578)
+
+- Conditional Affordance Learning for Driving in Urban Environments [[CoRL2018]](https://proceedings.mlr.press/v87/sauer18a.html)[[code]](https://github.com/xl-sr/CAL)![](https://img.shields.io/github/stars/xl-sr/CAL.svg?style=social&label=Star&maxAge=2592000)
 
 <!-- </details> -->
 
@@ -571,7 +586,7 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
     
 - Learning Mixture of Domain-Specific Experts via Disentangled Factors for Autonomous Driving Authors [[AAAI2022]](https://ojs.aaai.org/index.php/AAAI/article/view/20000)
 
-- ST-P3: End-to-end Vision-based Autonomous Driving via Spatial-Temporal Feature Learning [[ECCV2022]](https://arxiv.org/abs/2207.07601)[[Code]](https://github.com/OpenPerceptionX/ST-P3)![](https://img.shields.io/github/stars/OpenPerceptionX/ST-P3.svg?style=social&label=Star&maxAge=2592000)
+- ST-P3: End-to-end Vision-based Autonomous Driving via Spatial-Temporal Feature Learning [[ECCV2022]](https://arxiv.org/abs/2207.07601)[[Code]](https://github.com/OpenDriveLab/ST-P3)![](https://img.shields.io/github/stars/OpenDriveLab/ST-P3.svg?style=social&label=Star&maxAge=2592000)
 
 - TransFuser: Imitation with Transformer-Based Sensor Fusion for Autonomous Driving [[TPAMI2022]](https://arxiv.org/abs/2205.15997)[[Code]](https://github.com/autonomousvision/transfuser.git)![](https://img.shields.io/github/stars/autonomousvision/transfuser.svg?style=social&label=Star&maxAge=2592000)
         
@@ -600,6 +615,8 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 - Think Twice before Driving: Towards Scalable Decoders for End-to-End Autonomous Driving [[CVPR2023]](https://arxiv.org/abs/2305.06242)[[code]](https://github.com/OpenDriveLab/ThinkTwice)![](https://img.shields.io/github/stars/OpenDriveLab/ThinkTwice.svg?style=social&label=Star&maxAge=2592000)
 
 - ReasonNet: End-to-End Driving with Temporal and Global Reasoning [[CVPR2023]](https://arxiv.org/abs/2305.10507)
+
+- Hidden Biases of End-to-End Driving Models [[arXiv2023]](https://arxiv.org/abs/2306.07957)[[code]](https://github.com/autonomousvision/carla_garage)![](https://img.shields.io/github/stars/autonomousvision/carla_garage.svg?style=social&label=Star&maxAge=2592000)
 
 - Ground then Navigate: Language-guided Navigation in Dynamic Scenes [[arXiv2022]](https://arxiv.org/abs/2209.11972)
 
@@ -672,3 +689,66 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
      -->
 
 ## Data-driven Simulation
+
+### Parameter Initialization
+
+- KING: Generating Safety-Critical Driving Scenarios for Robust Imitation via Kinematics Gradients [[ECCV2022]](https://arxiv.org/abs/2204.13683)[[Code]](https://github.com/autonomousvision/transfuser.git)![](https://img.shields.io/github/stars/autonomousvision/transfuser.svg?style=social&label=Star&maxAge=2592000)
+
+- TrafficGen: Learning to Generate Diverse and Realistic Traffic Scenarios [[arXiv2022]](https://arxiv.org/abs/2210.06609)[[code]](https://github.com/metadriverse/trafficgen)![](https://img.shields.io/github/stars/metadriverse/trafficgen.svg?style=social&label=Star&maxAge=2592000)
+
+- AdvSim: Generating Safety-Critical Scenarios for Self-Driving Vehicles [[CVPR2021]](https://openaccess.thecvf.com/content/CVPR2021/html/Wang_AdvSim_Generating_Safety-Critical_Scenarios_for_Self-Driving_Vehicles_CVPR_2021_paper.html)
+
+- SceneGen: Learning To Generate Realistic Traffic Scenes [[CVPR2021]](https://openaccess.thecvf.com/content/CVPR2021/html/Tan_SceneGen_Learning_To_Generate_Realistic_Traffic_Scenes_CVPR_2021_paper.html)
+
+- HDMapGen: A Hierarchical Graph Generative Model of High Definition Maps [[CVPR2021]](https://openaccess.thecvf.com/content/CVPR2021/html/Mi_HDMapGen_A_Hierarchical_Graph_Generative_Model_of_High_Definition_Maps_CVPR_2021_paper.html)
+
+- SimNet: Learning Reactive Self-driving Simulations from Real-world Observations [[ICRA2021]](https://arxiv.org/abs/2105.12332)
+
+- Learning to Collide: An Adaptive Safety-Critical Scenarios Generating Method [[IROS2020]](https://arxiv.org/abs/2003.01197)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### Traffic Simulation
+
+- MixSim: A Hierarchical Framework for Mixed Reality Traffic Simulation [[CVPR2023]](https://openaccess.thecvf.com/content/CVPR2023/html/Suo_MixSim_A_Hierarchical_Framework_for_Mixed_Reality_Traffic_Simulation_CVPR_2023_paper.html)
+
+- TrafficBots: Towards World Models for Autonomous Driving Simulation and Motion Prediction [[arXiv2023]](https://arxiv.org/abs/2303.04116)
+
+- TrafficGen: Learning to Generate Diverse and Realistic Traffic Scenarios [[arXiv2022]](https://arxiv.org/abs/2210.06609)[[code]](https://github.com/metadriverse/trafficgen)![](https://img.shields.io/github/stars/metadriverse/trafficgen.svg?style=social&label=Star&maxAge=2592000)
+
+- Guided Conditional Diffusion for Controllable Traffic Simulation [[arXiv2022]](https://arxiv.org/abs/2210.17366)
+
+- BITS: Bi-level Imitation for Traffic Simulation [[arXiv2022]](https://arxiv.org/abs/2208.12403)
+
+- TrafficSim: Learning To Simulate Realistic Multi-Agent Behaviors [[CVPR2021]](https://openaccess.thecvf.com/content/CVPR2021/html/Suo_TrafficSim_Learning_To_Simulate_Realistic_Multi-Agent_Behaviors_CVPR_2021_paper.html)
+
+- SimNet: Learning Reactive Self-driving Simulations from Real-world Observations [[ICRA2021]](https://arxiv.org/abs/2105.12332)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### Sensor Simulation
+
+- UniSim: A Neural Closed-Loop Sensor Simulator [[CVPR2023]](https://openaccess.thecvf.com/content/CVPR2023/html/Yang_UniSim_A_Neural_Closed-Loop_Sensor_Simulator_CVPR_2023_paper.html)
+
+- Learning Compact Representations for LiDAR Completion and Generation [[CVPR2023]](https://openaccess.thecvf.com/content/CVPR2023/html/Xiong_Learning_Compact_Representations_for_LiDAR_Completion_and_Generation_CVPR_2023_paper.html)
+
+- Reconstructing Objects in-the-wild for Realistic Sensor Simulation [[ICRA2023]]()
+
+- Enhancing Photorealism Enhancement [[TPAMI2023]](https://arxiv.org/abs/2105.04619)[[code]](https://github.com/isl-org/PhotorealismEnhancement)![](https://img.shields.io/github/stars/isl-org/PhotorealismEnhancement.svg?style=social&label=Star&maxAge=2592000)
+
+- UrbanGIRAFFE: Representing Urban Scenes as Compositional Generative Neural Feature Fields [[arXiv2023]](https://arxiv.org/abs/2303.14167)
+
+- Mega-NERF: Scalable Construction of Large-Scale NeRFs for Virtual Fly-Throughs [[CVPR2022]](https://openaccess.thecvf.com/content/CVPR2022/html/Turki_Mega-NERF_Scalable_Construction_of_Large-Scale_NeRFs_for_Virtual_Fly-Throughs_CVPR_2022_paper.html)
+
+- Panoptic Neural Fields: A Semantic Object-Aware Neural Scene Representation [[CVPR2022]](https://openaccess.thecvf.com/content/CVPR2022/html/Kundu_Panoptic_Neural_Fields_A_Semantic_Object-Aware_Neural_Scene_Representation_CVPR_2022_paper.html)
+
+- CADSim: Robust and Scalable in-the-wild 3D Reconstruction for Controllable Sensor Simulation [[CoRL2022]](https://openreview.net/forum?id=Mp3Y5jd7rnW)
+
+- VISTA 2.0: An Open, Data-driven Simulator for Multimodal Sensing and Policy Learning for Autonomous Vehicles [[ICRA2022]](https://arxiv.org/abs/2111.12083)[[code]](https://github.com/vista-simulator/vista)![](https://img.shields.io/github/stars/vista-simulator/vista.svg?style=social&label=Star&maxAge=2592000)
+
+- Learning Interactive Driving Policies via Data-driven Simulation [[ICRA2022]](https://arxiv.org/abs/2111.12137)[[code]](https://github.com/vista-simulator/vista)![](https://img.shields.io/github/stars/vista-simulator/vista.svg?style=social&label=Star&maxAge=2592000)
+
+
+- Learning Robust Control Policies for End-to-End Autonomous Driving From Data-Driven Simulation [[RAL2020]](https://ieeexplore.ieee.org/abstract/document/8957584)
+
+<p align="right">(<a href="#top">back to top</a>)</p>

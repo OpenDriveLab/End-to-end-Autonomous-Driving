@@ -3,7 +3,7 @@
 # End-to-end Autonomous Driving
 Frontiers and Challenges for End-to-end Autonomous Driving. 
 
-**This repo is all you need for end-to-end autonomous driving research.** We present awesome talks, comprehensive paper collections, benchmarks, challenges, etc.
+**This repo is all you need for end-to-end autonomous driving research.** We present awesome talks, comprehensive paper collections, benchmarks, and challenges.
 
 <!-- ![](https://img.shields.io/badge/Record-137-673ab7.svg)
 ![](https://img.shields.io/badge/License-MIT-lightgrey.svg) -->
@@ -25,10 +25,10 @@ Frontiers and Challenges for End-to-end Autonomous Driving.
 
 ![](figs/overview.jpg)
 
-Instead of concentrating on individual tasks such as detection, prediction, etc., the autonomous driving community has witnessed rapid growth in approaches that embrace an end-to-end algorithm framework with raw sensor input to control signal output.  In this survey, we provide a comprehensive analysis of more than 250 papers on the motivation, roadmap, methodology, challenges, and future trends in end-to-end autonomous driving. More details can be found in the [survey paper]().
+The autonomous driving community has witnessed a rapid growth in approaches that embrace an end-to-end algorithm framework, utilizing raw sensor input to generate vehicle motion plans, instead of concentrating on individual tasks such as detection and motion prediction.  In this survey, we provide a comprehensive analysis of more than 250 papers on the motivation, roadmap, methodology, challenges, and future trends in end-to-end autonomous driving. More details can be found in the survey paper "[End-to-End Autonomous Driving: Challenges and Frontiers]()".
 
 ``
-If you find some work popular or useful enough to be cited below, shoot us email or simply open a PR!
+If you find some useful related materials, shoot us an email or simply open a PR!
 ``
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -93,6 +93,9 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 - [V2V Cooperative](./papers.md#v2v-cooperative)
 - [Distributed RL](./papers.md#distributed-rl)
 - [Data-driven Simulation](#data-driven-simulation)
+  - [Parameter Initialization](./papers.md#parameter-initialization)
+  - [Traffic Simulation](./papers.md#traffic-simulation)
+  - [Sensor Simulation](./papers.md#sensor-simulation)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -143,7 +146,8 @@ If you find this project useful in your research, please consider cite:
 @article{chen2023e2esurvey,
   title={End-to-End Autonomous Driving: Challenges and Frontiers},
   author={Chen, Li and Wu, Penghao and Chitta, Kashyap and Jaeger, Bernhard and Geiger, Andreas and Li, Hongyang},
-  journal={arXiv preprint arXiv:},
+  journal={arXiv},
+  volume={},
   year={2023}
 }
 ```
