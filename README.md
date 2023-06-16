@@ -24,7 +24,7 @@
 
 The autonomous driving community has witnessed a rapid growth in approaches that embrace an end-to-end algorithm framework, utilizing raw sensor input to generate vehicle motion plans, instead of concentrating on individual tasks such as detection and motion prediction. In this survey, we provide a comprehensive analysis of more than 250 papers on the motivation, roadmap, methodology, challenges, and future trends in end-to-end autonomous driving. More details can be found in our survey paper.
 
-> [**End-to-end Autonomous Driving: Challenges and Frontiers**]()
+> [**End-to-end Autonomous Driving: Challenges and Frontiers**](assets/Survey_E2E_Autonomous_Driving.pdf)
 >
 > [Li Chen](https://scholar.google.com/citations?user=ulZxvY0AAAAJ&hl=en&authuser=1)<sup>1</sup>, [Penghao Wu](https://scholar.google.com/citations?user=9mssd5EAAAAJ&hl=en)<sup>1</sup>, [Kashyap Chitta](https://kashyap7x.github.io/)<sup>2,3</sup>, [Bernhard Jaeger](https://kait0.github.io/)<sup>2,3</sup>, [Andreas Geiger](https://www.cvlibs.net/)<sup>2,3</sup>, and [Hongyang Li](https://lihongyang.info/)<sup>1,4</sup>
 > 
@@ -33,7 +33,7 @@ The autonomous driving community has witnessed a rapid growth in approaches that
 
 <br/>
 
-![](figs/overview.jpg)
+![](assets/overview.jpg)
 
 <br/>
 
@@ -87,7 +87,7 @@ If you find some useful related materials, shoot us an email or simply open a PR
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Paper Collection
-We list key challenges from a wide span of candidate concerns, as well as trending methodologies. Please refer to [this page](./papers.md) for the full list, and the [survey paper]() for detailed discussions.
+We list key challenges from a wide span of candidate concerns, as well as trending methodologies. Please refer to [this page](./papers.md) for the full list, and the [survey paper](assets/Survey_E2E_Autonomous_Driving.pdf) for detailed discussions.
 
 - [Survey](./papers.md#survey)
 - [Multi-sensor Fusion](./papers.md#multi-sensor-fusion)

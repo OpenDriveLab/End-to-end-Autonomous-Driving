@@ -4,14 +4,14 @@ We want to make contributing to this project as easy and transparent as possible
 ## Pull Requests
 We actively welcome your pull requests.
 
-1. Fork the repo and create your branch from `master`.
+1. Fork the repo and create your branch from `main`.
 2. Make sure your code lints.
     1. Ensure that the letters of each meaningful words in the title are capitalized.
-    2. Use short names for venues and journals.
+    2. Use short names for venues.
 <!-- 3. Do not forget to add the number for the badge at the beginning. -->
 
 ```
-- Paper Title [[venue/journal + year]](paper link)[[code (if any)]](code link)![](https://img.shields.io/github/stars/UserName/Repository.svg?style=social&label=Star&maxAge=2592000)
+- Paper Title [[venue + year]](paper link)[[code (if any)]](code link)![](https://img.shields.io/github/stars/UserName/Repository.svg?style=social&label=Star&maxAge=2592000)
 
 ```
 
