@@ -24,7 +24,7 @@
 
 The autonomous driving community has witnessed a rapid growth in approaches that embrace an end-to-end algorithm framework, utilizing raw sensor input to generate vehicle motion plans, instead of concentrating on individual tasks such as detection and motion prediction. In this survey, we provide a comprehensive analysis of more than 250 papers on the motivation, roadmap, methodology, challenges, and future trends in end-to-end autonomous driving. More details can be found in our survey paper.
 
-> [**End-to-end Autonomous Driving: Challenges and Frontiers**](assets/Survey_E2E_Autonomous_Driving.pdf)
+> [**End-to-end Autonomous Driving: Challenges and Frontiers**](https://arxiv.org/abs/2306.16927)
 >
 > [Li Chen](https://scholar.google.com/citations?user=ulZxvY0AAAAJ&hl=en&authuser=1)<sup>1</sup>, [Penghao Wu](https://scholar.google.com/citations?user=9mssd5EAAAAJ&hl=en)<sup>1</sup>, [Kashyap Chitta](https://kashyap7x.github.io/)<sup>2,3</sup>, [Bernhard Jaeger](https://kait0.github.io/)<sup>2,3</sup>, [Andreas Geiger](https://www.cvlibs.net/)<sup>2,3</sup>, and [Hongyang Li](https://lihongyang.info/)<sup>1,4</sup>
 > 
@@ -78,6 +78,7 @@ If you find some useful related materials, shoot us an email or simply open a PR
 <details>
   <summary>Relevant talks from other workshops</summary>
   
+  - [Common Misconceptions in Autonomous Driving](https://www.youtube.com/watch?v=x_42Fji1Z2M) - Andreas Geiger, Workshop on Autonomous Driving, CVPR 2023
   - [Learning Robust Policies for Self-Driving](https://www.youtube.com/watch?v=rm-1sPQV4zg) - Andreas Geiger, AVVision: Autonomous Vehicle Vision Workshop, ECCV 2022
   - [Autonomous Driving: The Way Forward](https://www.youtube.com/watch?v=XmtTjqimW3g) -  Vladlen Koltun, Workshop on AI for Autonomous Driving, ICML 2020
   - [Feedback in Imitation Learning: Confusion on Causality and Covariate Shift](https://www.youtube.com/watch?v=4VAwdCIBTG8) -  Sanjiban Choudhury and Arun Venkatraman, Workshop on AI for Autonomous Driving, ICML 2020
@@ -87,7 +88,7 @@ If you find some useful related materials, shoot us an email or simply open a PR
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Paper Collection
-We list key challenges from a wide span of candidate concerns, as well as trending methodologies. Please refer to [this page](./papers.md) for the full list, and the [survey paper](assets/Survey_E2E_Autonomous_Driving.pdf) for detailed discussions.
+We list key challenges from a wide span of candidate concerns, as well as trending methodologies. Please refer to [this page](./papers.md) for the full list, and the [survey paper](https://arxiv.org/abs/2306.16927) for detailed discussions.
 
 - [Survey](./papers.md#survey)
 - [Multi-sensor Fusion](./papers.md#multi-sensor-fusion)
@@ -168,7 +169,7 @@ If you find this project useful in your research, please consider citing:
   title={End-to-end Autonomous Driving: Challenges and Frontiers},
   author={Chen, Li and Wu, Penghao and Chitta, Kashyap and Jaeger, Bernhard and Geiger, Andreas and Li, Hongyang},
   journal={arXiv},
-  volume={},
+  volume={2306.16927},
   year={2023}
 }
 ```
