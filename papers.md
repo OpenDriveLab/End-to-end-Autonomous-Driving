@@ -117,7 +117,7 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 - Ground then Navigate: Language-guided Navigation in Dynamic Scenes [[arXiv2022]](https://arxiv.org/abs/2209.11972)
 
 - DOROTHIE: Spoken Dialogue for Handling Unexpected Situations in Interactive Autonomous Driving Agents
- [[EMNLP2022(Findings)]]([https://arxiv.org/abs/2209.11972](https://arxiv.org/abs/2210.12511))[[code]](https://github.com/sled-group/DOROTHIE)
+ [[EMNLP2022(Findings)]](https://arxiv.org/abs/2210.12511)[[code]](https://github.com/sled-group/DOROTHIE)
 
 - LM-Nav: Robotic Navigation with Large Pre-Trained Models of Language, Vision, and Action [[CoRL2022]](https://proceedings.mlr.press/v205/shah23b.html)
 
