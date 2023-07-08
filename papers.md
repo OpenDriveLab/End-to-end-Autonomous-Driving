@@ -116,6 +116,9 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 - Ground then Navigate: Language-guided Navigation in Dynamic Scenes [[arXiv2022]](https://arxiv.org/abs/2209.11972)
 
+- DOROTHIE: Spoken Dialogue for Handling Unexpected Situations in Interactive Autonomous Driving Agents
+ [[EMNLP2022(Findings)]](https://arxiv.org/abs/2210.12511)[[code]](https://github.com/sled-group/DOROTHIE)
+
 - LM-Nav: Robotic Navigation with Large Pre-Trained Models of Language, Vision, and Action [[CoRL2022]](https://proceedings.mlr.press/v205/shah23b.html)
 
 - Generating Landmark Navigation Instructions from Maps as a Graph-to-Text Problem [[ACL2021]](https://arxiv.org/abs/2012.15329)
@@ -506,6 +509,7 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 ### Domain Adaptation
 
 <!-- <details><summary>(Click for details)</summary> -->
+- SHIFT: A Synthetic Driving Dataset for Continuous Multi-Task Domain Adaptation [[CVPR2022]](https://arxiv.org/abs/2206.08367)[[code]](https://github.com/SysCV/shift-dev)
 
 - Learning Interactive Driving Policies via Data-driven Simulation [[ICRA2022]](https://ieeexplore.ieee.org/abstract/document/9812407)
 
