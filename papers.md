@@ -412,6 +412,8 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 <!-- <details><summary>(Click for details)</summary> -->
 
+- Uncertainty-Aware Model-Based Offline Reinforcement Learning for Automated Driving [[RAL2023]](https://ieeexplore.ieee.org/document/10015868)
+
 - Model-Based Imitation Learning for Urban Driving [[NeurIPS2022)]](https://arxiv.org/abs/2210.07729)[[Code]](https://github.com/wayveai/mile.git)![](https://img.shields.io/github/stars/wayveai/mile.svg?style=social&label=Star&maxAge=2592000)
 
 - Iso-Dream: Isolating and Leveraging Noncontrollable Visual Dynamics in World Models [[NeurIPS2022]](http://arxiv.org/pdf/2205.13817v3)[[Code]](https://github.com/panmt/Iso-Dream.git)![](https://img.shields.io/github/stars/panmt/Iso-Dream.svg?style=social&label=Star&maxAge=2592000)
@@ -425,6 +427,8 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 - Learning To Drive From a World on Rails [[ICCV2021]](http://arxiv.org/pdf/2105.00636v3)[[Code]](https://github.com/dotchen/WorldOnRails.git)![](https://img.shields.io/github/stars/dotchen/WorldOnRails.svg?style=social&label=Star&maxAge=2592000)
 
 - Uncertainty-Aware Model-Based Reinforcement Learning: Methodology and Application in Autonomous Driving [[IV2022]](https://ieeexplore.ieee.org/abstract/document/9802913)
+
+- UMBRELLA: Uncertainty-Aware Model-Based Offline Reinforcement Learning Leveraging Planning [[NeurIPSWorkshop2021]](https://arxiv.org/pdf/2111.11097.pdf)
 
 - Deductive Reinforcement Learning for Visual Autonomous Urban Driving Navigation [[TNNLS2021]](https://ieeexplore.ieee.org/document/9537641)
 
