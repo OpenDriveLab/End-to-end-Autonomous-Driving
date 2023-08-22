@@ -596,6 +596,8 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 - Enhance Sample Efficiency and Robustness of End-to-end Urban Autonomous Driving via Semantic Masked World Model [[NeurIPSWorkshop2022]](https://arxiv.org/abs/2210.04017)
 
+- LaRa: Latents and Rays for Multi-Camera Bird's-Eye-View Semantic Segmentation [[CoRL2022]](https://arxiv.org/abs/2206.13294)[[Code]](https://github.com/valeoai/LaRa)![](https://img.shields.io/github/stars/valeoai/LaRa.svg?style=social&label=Star&maxAge=2592000)
+
 - Safety-Enhanced Autonomous Driving Using Interpretable Sensor Fusion Transformer [[CoRL2022]](https://arxiv.org/abs/2207.14024)[[Code]](https://github.com/opendilab/InterFuser)![](https://img.shields.io/github/stars/opendilab/InterFuser.svg?style=social&label=Star&maxAge=2592000)
 
 - Addressing Optimism Bias in Sequence Modeling for Reinforcement Learning [[ICML2022]](https://arxiv.org/abs/2207.10295)
