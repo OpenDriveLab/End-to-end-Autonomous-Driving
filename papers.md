@@ -9,6 +9,7 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 - [Language-guided Driving](#language-guided-driving)
 - [Multi-task Learning](#multi-task-learning)
 - [Interpretability](#interpretability)
+  - [Review](#review)
   - [Attention Visualization](#attention-visualization)
   - [Interpretable Tasks](#interpretable-tasks)
   - [Cost Learning](#cost-learning)
@@ -192,6 +193,11 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 <p align="right">(<a href="#top">back to top</a>)</p>  
 
 ## Interpretability
+
+### Review
+
+- Explainability of deep vision-based autonomous driving systems: Review and challenges [[IJCV2022]](https://arxiv.org/abs/2101.05307)
+
 ### Attention Visualization
 
 <!-- <details><summary>(Click for details)</summary> -->
