@@ -38,7 +38,7 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 <!-- <details><summary>(Click for details)</summary> -->
 
-- End-to-End Autonomous Driving: Challenges and Frontiers [[arXiv]]()
+- End-to-End Autonomous Driving: Challenges and Frontiers [[arXiv2023]](https://arxiv.org/abs/2306.16927)
 
 - Motion Planning for Autonomous Driving: The State of the Art and Future Perspectives [[TIV2023]](https://arxiv.org/abs/2303.09824)
 
@@ -67,11 +67,13 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 <!-- <details><summary>(Click for details)</summary> -->
 
-- Think Twice before Driving: Towards Scalable Decoders for End-to-End Autonomous Driving [[CVPR2023]](https://arxiv.org/abs/2305.06242)[[code]](https://github.com/OpenDriveLab/ThinkTwice)![](https://img.shields.io/github/stars/OpenDriveLab/ThinkTwice.svg?style=social&label=Star&maxAge=2592000)
+- Hidden Biases of End-to-End Driving Models [[ICCV2023]](https://arxiv.org/abs/2306.07957)[[code]](https://github.com/autonomousvision/carla_garage)![](https://img.shields.io/github/stars/autonomousvision/carla_garage.svg?style=social&label=Star&maxAge=2592000)
+
+- Learning to Drive Anywhere [[CoRL2023]](https://arxiv.org/abs/2309.12295)
+
+- Think Twice before Driving: Towards Scalable Decoders for End-to-End Autonomous Driving [[CVPR2023]](https://arxiv.org/abs/2305.06242)[[Code]](https://github.com/OpenDriveLab/ThinkTwice)![](https://img.shields.io/github/stars/OpenDriveLab/ThinkTwice.svg?style=social&label=Star&maxAge=2592000)
 
 - ReasonNet: End-to-End Driving with Temporal and Global Reasoning [[CVPR2023]](https://arxiv.org/abs/2305.10507)
-
-- Hidden Biases of End-to-End Driving Models [[ICCV2023]](https://arxiv.org/abs/2306.07957)[[code]](https://github.com/autonomousvision/carla_garage)![](https://img.shields.io/github/stars/autonomousvision/carla_garage.svg?style=social&label=Star&maxAge=2592000)
 
 - Enhance Sample Efficiency and Robustness of End-to-end Urban Autonomous Driving via Semantic Masked World Model [[NeurIPSWorkshop2022]](https://arxiv.org/abs/2210.04017)
 
@@ -330,7 +332,7 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 <!-- <details><summary>(Click for details)</summary> -->
 
-- DriveAdapter: Breaking the Coupling Barrier of Perception and Planning in End-to-End Autonomous Driving[[ICCV2023]](https://arxiv.org/abs/2308.00398)[[code]](https://github.com/OpenDriveLab/DriveAdapter)![](https://img.shields.io/github/stars/OpenDriveLab/DriveAdapter?style=social&label=Star)
+- DriveAdapter: Breaking the Coupling Barrier of Perception and Planning in End-to-End Autonomous Driving [[ICCV2023]](https://arxiv.org/abs/2308.00398)[[Code]](https://github.com/OpenDriveLab/DriveAdapter)![](https://img.shields.io/github/stars/OpenDriveLab/DriveAdapter?style=social&label=Star)
 
 - Policy Pre-training for Autonomous Driving via Self-supervised Geometric Modeling [[ICLR2023]](https://openreview.net/forum?id=X5SUR7g2vVw)[[Code]](https://github.com/OpenDriveLab/PPGeo)![](https://img.shields.io/github/stars/OpenDriveLab/PPGeo.svg?style=social&label=Star&maxAge=2592000)
 
@@ -368,7 +370,7 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 <!-- <details><summary>(Click for details)</summary> -->
 
-- DriveAdapter: Breaking the Coupling Barrier of Perception and Planning in End-to-End Autonomous Driving[[ICCV2023]](https://arxiv.org/abs/2308.00398)[[code]](https://github.com/OpenDriveLab/DriveAdapter)![](https://img.shields.io/github/stars/OpenDriveLab/DriveAdapter?style=social&label=Star)
+- DriveAdapter: Breaking the Coupling Barrier of Perception and Planning in End-to-End Autonomous Driving [[ICCV2023]](https://arxiv.org/abs/2308.00398)[[Code]](https://github.com/OpenDriveLab/DriveAdapter)![](https://img.shields.io/github/stars/OpenDriveLab/DriveAdapter?style=social&label=Star)
 
 - Coaching a Teachable Student [[CVPR2023]](https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Coaching_a_Teachable_Student_CVPR_2023_paper.html)
 
@@ -393,6 +395,8 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 ## Causal Confusion
 
 <!-- <details><summary>(Click for details)</summary> -->
+
+- DriveAdapter: Breaking the Coupling Barrier of Perception and Planning in End-to-End Autonomous Driving [[ICCV2023]](https://arxiv.org/abs/2308.00398)[[Code]](https://github.com/OpenDriveLab/DriveAdapter)![](https://img.shields.io/github/stars/OpenDriveLab/DriveAdapter?style=social&label=Star)
 
 - Fighting Fire with Fire: Avoiding DNN Shortcuts through Priming [[ICML2022]](https://arxiv.org/abs/2206.10816)
 
@@ -442,6 +446,8 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 - Deductive Reinforcement Learning for Visual Autonomous Urban Driving Navigation [[TNNLS2021]](https://ieeexplore.ieee.org/document/9537641)
 
+- Model-Predictive Policy Learning with Uncertainty Regularization for Driving in Dense Traffic [[ICLR2019]](https://arxiv.org/abs/1901.02705)
+
 <!-- </details> -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -451,6 +457,8 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 ### Long-tailed Distribution
 
 <!-- <details><summary>(Click for details)</summary> -->
+
+- CAT: Closed-loop Adversarial Training for Safe End-to-End Driving [[CoRL2023]](https://openreview.net/forum?id=VtJqMs9ig20)
 
 - Adversarial Driving: Attacking End-to-End Autonomous Driving [[IV2023]](https://arxiv.org/abs/2103.09151)[[Code]](https://github.com/wuhanstudio/adversarial-driving.git)![](https://img.shields.io/github/stars/wuhanstudio/adversarial-driving.svg?style=social&label=Star&maxAge=2592000)
 
@@ -523,7 +531,9 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 ### Domain Adaptation
 
 <!-- <details><summary>(Click for details)</summary> -->
-- DriveAdapter: Breaking the Coupling Barrier of Perception and Planning in End-to-End Autonomous Driving[[ICCV2023]](https://arxiv.org/abs/2308.00398)[[code]](https://github.com/OpenDriveLab/DriveAdapter)![](https://img.shields.io/github/stars/OpenDriveLab/DriveAdapter?style=social&label=Star)
+- DriveAdapter: Breaking the Coupling Barrier of Perception and Planning in End-to-End Autonomous Driving [[ICCV2023]](https://arxiv.org/abs/2308.00398)[[code]](https://github.com/OpenDriveLab/DriveAdapter)![](https://img.shields.io/github/stars/OpenDriveLab/DriveAdapter?style=social&label=Star)
+
+- Learning to Drive Anywhere [[CoRL2023]](https://arxiv.org/abs/2309.12295)
 
 - SHIFT: A Synthetic Driving Dataset for Continuous Multi-Task Domain Adaptation [[CVPR2022]](https://arxiv.org/abs/2206.08367)[[code]](https://github.com/SysCV/shift-dev)
 
