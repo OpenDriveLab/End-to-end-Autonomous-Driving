@@ -717,7 +717,7 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 - KING: Generating Safety-Critical Driving Scenarios for Robust Imitation via Kinematics Gradients [[ECCV2022]](https://arxiv.org/abs/2204.13683)[[Code]](https://github.com/autonomousvision/transfuser.git)![](https://img.shields.io/github/stars/autonomousvision/transfuser.svg?style=social&label=Star&maxAge=2592000)
 
-- TrafficGen: Learning to Generate Diverse and Realistic Traffic Scenarios [[arXiv2022]](https://arxiv.org/abs/2210.06609)[[code]](https://github.com/metadriverse/trafficgen)![](https://img.shields.io/github/stars/metadriverse/trafficgen.svg?style=social&label=Star&maxAge=2592000)
+- TrafficGen: Learning to Generate Diverse and Realistic Traffic Scenarios [[ICRA2023]](https://arxiv.org/abs/2210.06609)[[code]](https://github.com/metadriverse/trafficgen)![](https://img.shields.io/github/stars/metadriverse/trafficgen.svg?style=social&label=Star&maxAge=2592000)
 
 - AdvSim: Generating Safety-Critical Scenarios for Self-Driving Vehicles [[CVPR2021]](https://openaccess.thecvf.com/content/CVPR2021/html/Wang_AdvSim_Generating_Safety-Critical_Scenarios_for_Self-Driving_Vehicles_CVPR_2021_paper.html)
 
@@ -733,11 +733,21 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 ### Traffic Simulation
 
+- Data-driven Traffic Simulation: A Comprehensive Review [[arXiv2023]](https://arxiv.org/abs/2310.15975)
+
+- Scenario Diffusion: Controllable Driving Scenario Generation With Diffusion [[NeurIPS2023]](https://arxiv.org/abs/2311.02738)
+
 - MixSim: A Hierarchical Framework for Mixed Reality Traffic Simulation [[CVPR2023]](https://openaccess.thecvf.com/content/CVPR2023/html/Suo_MixSim_A_Hierarchical_Framework_for_Mixed_Reality_Traffic_Simulation_CVPR_2023_paper.html)
+
+- Learning Realistic Traffic Agents in Closed-loop [[CoRL2023]](https://arxiv.org/abs/2311.01394)
 
 - TrafficBots: Towards World Models for Autonomous Driving Simulation and Motion Prediction [[arXiv2023]](https://arxiv.org/abs/2303.04116)
 
-- TrafficGen: Learning to Generate Diverse and Realistic Traffic Scenarios [[arXiv2022]](https://arxiv.org/abs/2210.06609)[[code]](https://github.com/metadriverse/trafficgen)![](https://img.shields.io/github/stars/metadriverse/trafficgen.svg?style=social&label=Star&maxAge=2592000)
+- Language Conditioned Traffic Generation [[arXiv2023]](https://arxiv.org/abs/2307.07947)[[code]](https://github.com/Ariostgx/lctgen)![](https://img.shields.io/github/stars/Ariostgx/lctgen.svg?style=social&label=Star&maxAge=2592000)
+
+- TrafficGen: Learning to Generate Diverse and Realistic Traffic Scenarios [[ICRA2023]](https://arxiv.org/abs/2210.06609)[[code]](https://github.com/metadriverse/trafficgen)![](https://img.shields.io/github/stars/metadriverse/trafficgen.svg?style=social&label=Star&maxAge=2592000)
+
+- DriveSceneGen: Generating Diverse and Realistic Driving Scenarios from Scratch [[arXiv2023]](https://arxiv.org/abs/2309.14685)
 
 - Guided Conditional Diffusion for Controllable Traffic Simulation [[arXiv2022]](https://arxiv.org/abs/2210.17366)
 
@@ -755,11 +765,17 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 - Learning Compact Representations for LiDAR Completion and Generation [[CVPR2023]](https://openaccess.thecvf.com/content/CVPR2023/html/Xiong_Learning_Compact_Representations_for_LiDAR_Completion_and_Generation_CVPR_2023_paper.html)
 
-- Reconstructing Objects in-the-wild for Realistic Sensor Simulation [[ICRA2023]]()
+- Adv3D: Generating Safety-Critical 3D Objects through Closed-Loop Simulation [[CoRL2023]](https://arxiv.org/abs/2311.01446)
+
+- Reconstructing Objects in-the-wild for Realistic Sensor Simulation [[ICRA2023]](https://arxiv.org/abs/2311.05602)
 
 - Enhancing Photorealism Enhancement [[TPAMI2023]](https://arxiv.org/abs/2105.04619)[[code]](https://github.com/isl-org/PhotorealismEnhancement)![](https://img.shields.io/github/stars/isl-org/PhotorealismEnhancement.svg?style=social&label=Star&maxAge=2592000)
 
-- UrbanGIRAFFE: Representing Urban Scenes as Compositional Generative Neural Feature Fields [[arXiv2023]](https://arxiv.org/abs/2303.14167)
+- UrbanGIRAFFE: Representing Urban Scenes as Compositional Generative Neural Feature Fields [[ICCV2023]](https://arxiv.org/abs/2303.14167)[[code]](https://github.com/freemty/urbanGIRAFFE)![](https://img.shields.io/github/stars/freemty/urbanGIRAFFE.svg?style=social&label=Star&maxAge=2592000)
+
+- NeuRAD: Neural Rendering for Autonomous Driving [[arXiv2023]](https://arxiv.org/abs/2311.15260)[[code]](https://github.com/georghess/NeuRAD)![](https://img.shields.io/github/stars/georghess/NeuRAD.svg?style=social&label=Star&maxAge=2592000)
+
+- MARS: An Instance-aware, Modular and Realistic Simulator for Autonomous Driving [[CICAI2023]](https://arxiv.org/abs/2307.15058)[[code]](https://github.com/OPEN-AIR-SUN/mars)![](https://img.shields.io/github/stars/OPEN-AIR-SUN/mars.svg?style=social&label=Star&maxAge=2592000)
 
 - Mega-NERF: Scalable Construction of Large-Scale NeRFs for Virtual Fly-Throughs [[CVPR2022]](https://openaccess.thecvf.com/content/CVPR2022/html/Turki_Mega-NERF_Scalable_Construction_of_Large-Scale_NeRFs_for_Virtual_Fly-Throughs_CVPR_2022_paper.html)
 
