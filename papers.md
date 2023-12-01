@@ -14,6 +14,7 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
   - [Cost Learning](#cost-learning)
   - [Linguistic Explainability](#linguistic-explainability)
   - [Uncertainty Modeling](#uncertainty-modeling)
+  - [Counterfactual Explanations and Causal Inference](#counterfactual-explanations-and-causal-inference)
 - [Visual Abstraction / Representation Learning](#visual-abstraction--representation-learning)
 - [Policy Distillation](#policy-distillation)
 - [Causal Confusion](#causal-confusion)
@@ -314,6 +315,19 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 - Evaluating Uncertainty Quantification in End-to-End Autonomous Driving Control [[arXiv2018]](https://arxiv.org/abs/1811.06817)
 
 <!-- </details> -->
+
+### Counterfactual Explanations and Causal Inference
+
+<!-- <details><summary>(Click for details)</summary> -->
+ 
+- OCTET: Object-aware Counterfactual Explanation [[CVPR2023]](https://arxiv.org/abs/2211.12380)[[Code]](https://github.com/valeoai/OCTET.git)![](https://img.shields.io/github/stars/valeoai/OCTET.svg?style=social&label=Star&maxAge=2592000)
+
+- STEEX: Steering Counterfactual Explanations with Semantics [[ECCV2022]](https://arxiv.org/abs/2111.09094)[[Code]](https://github.com/valeoai/STEEX.git)![](https://img.shields.io/github/stars/valeoai/STEEX.svg?style=social&label=Star&maxAge=2592000)
+
+- Who Make Drivers Stop? Towards Driver-centric Risk Assessment: Risk Object Identification via Causal Inference [[IROS2020]](https://arxiv.org/abs/2003.02425)
+
+<!-- </details> -->
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
   
