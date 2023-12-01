@@ -100,6 +100,7 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
   - [Cost Learning](./papers.md#cost-learning)
   - [Linguistic Explainability](./papers.md#linguistic-explainability)
   - [Uncertainty Modeling](./papers.md#uncertainty-modeling)
+  - [Counterfactual Explanations and Causal Inference](./papers.md#counterfactual-explanations-and-causal-inference)
 - [Visual Abstraction / Representation Learning](./papers.md#visual-abstraction--representation-learning)
 - [Policy Distillation](./papers.md#policy-distillation)
 - [Causal Confusion](./papers.md#causal-confusion)
