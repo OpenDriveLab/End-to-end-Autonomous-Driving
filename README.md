@@ -91,8 +91,9 @@ If you find some useful related materials, shoot us an email or simply open a PR
 We list key challenges from a wide span of candidate concerns, as well as trending methodologies. Please refer to [this page](./papers.md) for the full list, and the [survey paper](https://arxiv.org/abs/2306.16927) for detailed discussions.
 
 - [Survey](./papers.md#survey)
-- [Multi-sensor Fusion](./papers.md#multi-sensor-fusion)
 - [Language-guided Driving](./papers.md#language-guided-driving)
+- [World Model & Model-based RL](./papers.md#world-model--model-based-rl)
+- [Multi-sensor Fusion](./papers.md#multi-sensor-fusion)
 - [Multi-task Learning](./papers.md#multi-task-learning)
 - [Interpretability](./papers.md#interpretability)
   - [Attention Visualization](./papers.md#attention-visualization)
@@ -104,7 +105,6 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 - [Visual Abstraction / Representation Learning](./papers.md#visual-abstraction--representation-learning)
 - [Policy Distillation](./papers.md#policy-distillation)
 - [Causal Confusion](./papers.md#causal-confusion)
-- [World Model & Model-based RL](./papers.md#world-model--model-based-rl)
 - [Robustness](./papers.md#robustness)
   - [Long-tailed Distribution](./papers.md#long-tailed-distribution)
   - [Covariate Shift](./papers.md#covariate-shift)
