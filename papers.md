@@ -387,6 +387,8 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 <!-- </details> -->
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ### Counterfactual Explanations and Causal Inference
 
 <!-- <details><summary>(Click for details)</summary> -->
@@ -398,7 +400,6 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 - Who Make Drivers Stop? Towards Driver-centric Risk Assessment: Risk Object Identification via Causal Inference [[IROS2020]](https://arxiv.org/abs/2003.02425)
 
 <!-- </details> -->
-
 
 <p align="right">(<a href="#top">back to top</a>)</p>
   
