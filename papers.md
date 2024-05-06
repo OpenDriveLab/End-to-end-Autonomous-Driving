@@ -5,7 +5,7 @@
 We list key challenges from a wide span of candidate concerns, as well as trending methodologies.
 
 - [Survey](#survey)
-- [Language-guided Driving](#language-guided-driving)
+- [Language for Driving](#language-for-driving)
 - [World Model & Model-based RL](#world-model--model-based-rl)
 - [Multi-sensor Fusion](#multi-sensor-fusion)
 - [Multi-task Learning](#multi-task-learning)
@@ -68,7 +68,7 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-## Language-guided Driving
+## Language for Driving
 
 <!-- <details><summary>(Click for details)</summary> -->
 

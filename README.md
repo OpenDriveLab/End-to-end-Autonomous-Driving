@@ -22,7 +22,7 @@
 
 ## At a Glance
 
-The autonomous driving community has witnessed a rapid growth in approaches that embrace an end-to-end algorithm framework, utilizing raw sensor input to generate vehicle motion plans, instead of concentrating on individual tasks such as detection and motion prediction. In this survey, we provide a comprehensive analysis of more than 250 papers on the motivation, roadmap, methodology, challenges, and future trends in end-to-end autonomous driving. More details can be found in our survey paper.
+The autonomous driving community has witnessed a rapid growth in approaches that embrace an end-to-end algorithm framework, utilizing raw sensor input to generate vehicle motion plans, instead of concentrating on individual tasks such as detection and motion prediction. In this survey, we provide a comprehensive analysis of more than 270 papers on the motivation, roadmap, methodology, challenges, and future trends in end-to-end autonomous driving. More details can be found in our survey paper.
 
 > [**End-to-end Autonomous Driving: Challenges and Frontiers**](https://arxiv.org/abs/2306.16927)
 >
@@ -64,6 +64,7 @@ If you find some useful related materials, shoot us an email or simply open a PR
 ## Workshops and Talks
 
 **Workshops**
+- [CVPR 2024] [Foundation Models for Autonomous Systems](https://opendrivelab.com/cvpr2024/workshop/)
 - [CVPR 2023] [Workshop on End-to-end Autonomous Driving](https://opendrivelab.com/e2ead/cvpr23.html)
 - [CVPR 2023] [End-to-End Autonomous Driving: Perception, Prediction, Planning and Simulation](https://e2ead.github.io/2023.html)
 - [ICRA 2023] [Scalable Autonomous Driving](https://sites.google.com/view/icra2023av/home?authuser=0)
@@ -91,7 +92,7 @@ If you find some useful related materials, shoot us an email or simply open a PR
 We list key challenges from a wide span of candidate concerns, as well as trending methodologies. Please refer to [this page](./papers.md) for the full list, and the [survey paper](https://arxiv.org/abs/2306.16927) for detailed discussions.
 
 - [Survey](./papers.md#survey)
-- [Language-guided Driving](./papers.md#language-guided-driving)
+- [Languag for Driving](./papers.md#language-for-driving)
 - [World Model & Model-based RL](./papers.md#world-model--model-based-rl)
 - [Multi-sensor Fusion](./papers.md#multi-sensor-fusion)
 - [Multi-task Learning](./papers.md#multi-task-learning)
@@ -129,6 +130,7 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
   - [Leaderboard 2.0](https://leaderboard.carla.org/get_started/)
 - [nuPlan](https://www.nuscenes.org/nuplan)
   - [Leaderboard](https://eval.ai/web/challenges/challenge-page/1856/overview) (inactive after the CVPR 2023 challege)
+  - [NAVSIM](https://github.com/autonomousvision/navsim)
 
 <details>
   <summary>Open-loop</summary>
@@ -144,6 +146,8 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 ## Competitions / Challenges
 
+- [End-to-End Driving at Scale](https://opendrivelab.com/challenge2024/#end_to_end_driving_at_scale), Foundation Models for Autonomous Systems, CVPR 2024
+- [CARLA Autonomous Driving Challenge](https://opendrivelab.com/challenge2024/#carla), Foundation Models for Autonomous Systems, CVPR 2024
 - [nuPlan planning](https://opendrivelab.com/AD23Challenge.html#nuplan_planning), Workshop on End-to-end Autonomous Driving, CVPR 2023
 - [CARLA Autonomous Driving Challenge 2022](https://ml4ad.github.io/#challenge), Machine Learning for Autonomous Driving, NeurIPS 2022
 - [CARLA Autonomous Driving Challenge 2021](https://ml4ad.github.io/2021/#challenge), Machine Learning for Autonomous Driving, NeurIPS 2021
@@ -180,6 +184,6 @@ If you find this project useful in your research, please consider citing:
 ## Contact
 Primary contact: `lihongyang@pjlab.org.cn`. You can also contact: `lichen@pjlab.org.cn`.
 
-Join [Slack](https://join.slack.com/t/opendrivelab/shared_invite/zt-1rcp42b35-Wc5I0MhUrahlM5qDeJrVqQ) to chat with the commuty! Slack channel: `#e2ead`.
+Join [OpenDriveLab Slack](https://opendrivelab.slack.com/join/shared_invite/zt-2ft3dfjoz-6XErfBts4s_8Fen88wO4Jg#/shared-invite/email) to chat with the commuty! Slack channel: `#e2ead`.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
