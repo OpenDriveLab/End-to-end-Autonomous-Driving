@@ -26,9 +26,9 @@ The autonomous driving community has witnessed a rapid growth in approaches that
 
 > [**End-to-end Autonomous Driving: Challenges and Frontiers**](https://arxiv.org/abs/2306.16927)
 >
-> [Li Chen](https://scholar.google.com/citations?user=ulZxvY0AAAAJ&hl=en&authuser=1)<sup>1</sup>, [Penghao Wu](https://scholar.google.com/citations?user=9mssd5EAAAAJ&hl=en)<sup>1</sup>, [Kashyap Chitta](https://kashyap7x.github.io/)<sup>2,3</sup>, [Bernhard Jaeger](https://kait0.github.io/)<sup>2,3</sup>, [Andreas Geiger](https://www.cvlibs.net/)<sup>2,3</sup>, and [Hongyang Li](https://lihongyang.info/)<sup>1,4</sup>
+> [Li Chen](https://scholar.google.com/citations?user=ulZxvY0AAAAJ&hl=en&authuser=1)<sup>1,2</sup>, [Penghao Wu](https://scholar.google.com/citations?user=9mssd5EAAAAJ&hl=en)<sup>1</sup>, [Kashyap Chitta](https://kashyap7x.github.io/)<sup>3,4</sup>, [Bernhard Jaeger](https://kait0.github.io/)<sup>3,4</sup>, [Andreas Geiger](https://www.cvlibs.net/)<sup>3,4</sup>, and [Hongyang Li](https://lihongyang.info/)<sup>2,1</sup>
 > 
-> <sup>1</sup> Shanghai AI Lab, <sup>2</sup> University of Tübingen, <sup>3</sup> Tübingen AI Center, <sup>4</sup> Shanghai Jiao Tong University
+> <sup>1</sup> OpenDriveLab, Shanghai AI Lab, <sup>2</sup> University of Hong Kong, <sup>3</sup> University of Tübingen, <sup>4</sup> Tübingen AI Center
 >
 
 <br/>
@@ -52,30 +52,33 @@ If you find some useful related materials, shoot us an email or simply open a PR
 - [The Complete Self-Driving Car Course - Applied Deep Learning](https://www.udemy.com/course/applied-deep-learningtm-the-complete-self-driving-car-course/), Udemy
 - [Self-Driving Car Engineer Nanodegree Program](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd0013), Udacity
 
-<details>
-  <summary>Useful Tools</summary>
-  
-  - Under construction!
-  
-</details>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
   
 ## Workshops and Talks
 
-**Workshops**
+**Workshops (recent years)**
 - [CVPR 2024] [Foundation Models for Autonomous Systems](https://opendrivelab.com/cvpr2024/workshop/)
+- [CVPR 2024] [Tutorial: End-to-End Autonomy: A New Era of Self-Driving](https://wayve.ai/cvpr-e2ead-tutorial/)
+- [CVPR 2024] [Tutorial: Towards Building AGI in Autonomy and Robotics](https://opendrivelab.com/cvpr2024/tutorial/)
 - [CVPR 2023] [Workshop on End-to-end Autonomous Driving](https://opendrivelab.com/e2ead/cvpr23.html)
 - [CVPR 2023] [End-to-End Autonomous Driving: Perception, Prediction, Planning and Simulation](https://e2ead.github.io/2023.html)
 - [ICRA 2023] [Scalable Autonomous Driving](https://sites.google.com/view/icra2023av/home?authuser=0)
-- [NeurIPS 2022] [Machine Learning for Autonomous Driving](https://ml4ad.github.io/)
-- [IROS 2022] [Behavior-driven Autonomous Driving in Unstructured Environments](https://gamma.umd.edu/workshops/badue22/)
-- [ICRA 2022] [Fresh Perspectives on the Future of Autonomous Driving Workshop](https://www.self-driving-cars.org/)
-- [NeurIPS 2021] [Machine Learning for Autonomous Driving](https://ml4ad.github.io/2021/)
-- [NeurIPS 2020] [Machine Learning for Autonomous Driving](https://ml4ad.github.io/2020/)
-- [CVPR 2020] [Workshop on Scalability in Autonomous Driving](https://sites.google.com/view/cvpr20-scalability)
 
+**Workshops (previous years)**
+<details>
 
+  - [NeurIPS 2022] [Machine Learning for Autonomous Driving](https://ml4ad.github.io/)
+  - [IROS 2022] [Behavior-driven Autonomous Driving in Unstructured Environments](https://gamma.umd.edu/workshops/badue22/)
+  - [ICRA 2022] [Fresh Perspectives on the Future of Autonomous Driving Workshop](https://www.self-driving-cars.org/)
+  - [NeurIPS 2021] [Machine Learning for Autonomous Driving](https://ml4ad.github.io/2021/)
+  - [NeurIPS 2020] [Machine Learning for Autonomous Driving](https://ml4ad.github.io/2020/)
+  - [CVPR 2020] [Workshop on Scalability in Autonomous Driving](https://sites.google.com/view/cvpr20-scalability)
+
+</details>
+</br>
+
+**Talks**
 <details>
   <summary>Relevant talks from other workshops</summary>
   
@@ -173,16 +176,15 @@ If you find this project useful in your research, please consider citing:
 @article{chen2023e2esurvey,
   title={End-to-end Autonomous Driving: Challenges and Frontiers},
   author={Chen, Li and Wu, Penghao and Chitta, Kashyap and Jaeger, Bernhard and Geiger, Andreas and Li, Hongyang},
-  journal={arXiv},
-  volume={2306.16927},
-  year={2023}
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2024}
 }
 ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Contact
-Primary contact: `lihongyang@pjlab.org.cn`. You can also contact: `lichen@pjlab.org.cn`.
+Primary contact: `hy@opendrivelab.com`. You can also contact: `lichen@opendrivelab.com`.
 
 Join [OpenDriveLab Slack](https://opendrivelab.slack.com/join/shared_invite/zt-2ft3dfjoz-6XErfBts4s_8Fen88wO4Jg#/shared-invite/email) to chat with the commuty! Slack channel: `#e2ead`.
 
