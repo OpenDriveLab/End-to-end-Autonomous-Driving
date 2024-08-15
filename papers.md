@@ -5,18 +5,20 @@
 We list key challenges from a wide span of candidate concerns, as well as trending methodologies.
 
 - [Survey](#survey)
-- [Language for Driving](#language-for-driving)
+- [Language / VLM for Driving](#language--vlm-for-driving)
+  - [Review for VLM in Driving](#review-for-vlm-in-driving)
+  - [Papers for VLM in Driving](#papers-for-vlm-in-driving)
 - [World Model & Model-based RL](#world-model--model-based-rl)
 - [Multi-sensor Fusion](#multi-sensor-fusion)
 - [Multi-task Learning](#multi-task-learning)
 - [Interpretability](#interpretability)
-  - [Review](#review)
+  - [Review for Interpretability](#review-for-interpretability)
   - [Attention Visualization](#attention-visualization)
   - [Interpretable Tasks](#interpretable-tasks)
   - [Cost Learning](#cost-learning)
   - [Linguistic Explainability](#linguistic-explainability)
   - [Uncertainty Modeling](#uncertainty-modeling)
-  - [Counterfactual Explanations and Causal Inference](#counterfactual-explanations-and-causal-inference)
+  - [Counterfactual Explanations and Causal Inference](#counterfactual-explanations-and-causal-inference) 
 - [Visual Abstraction / Representation Learning](#visual-abstraction--representation-learning)
 - [Policy Distillation](#policy-distillation)
 - [Causal Confusion](#causal-confusion)
@@ -39,11 +41,13 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 <!-- <details><summary>(Click for details)</summary> -->
 
-- End-to-End Autonomous Driving: Challenges and Frontiers [[arXiv2023]](https://arxiv.org/abs/2306.16927)
+- End-to-End Autonomous Driving: Challenges and Frontiers [[TPAMI2024]](https://arxiv.org/abs/2306.16927)
 
 - Recent Advancements in End-to-End Autonomous Driving using Deep Learning: A Survey [[TIV2023]](https://ieeexplore.ieee.org/abstract/document/10258330)
 
 - Rethinking Integration of Prediction and Planning in Deep Learning-Based Automated Driving Systems: A Review [[arXiv2023]](https://arxiv.org/abs/2308.05731)
+
+- End-to-end Autonomous Driving using Deep Learning: A Systematic Review [[arXiv2023]](https://arxiv.org/abs/2311.18636)
 
 - Motion Planning for Autonomous Driving: The State of the Art and Future Perspectives [[TIV2023]](https://arxiv.org/abs/2303.09824)
 
@@ -68,26 +72,82 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-## Language for Driving
+## Language / VLM for Driving
 
 <!-- <details><summary>(Click for details)</summary> -->
 
+### Review for VLM in Driving
+
+- Vision Language Models in Autonomous Driving: A Survey and Outlook [[TIV2024]](https://arxiv.org/abs/2310.14414)[[Code]](https://github.com/ge25nab/Awesome-VLM-AD-ITS)![](https://img.shields.io/github/stars/ge25nab/Awesome-VLM-AD-ITS.svg?style=social&label=Star&maxAge=2592000)
+
+- A Survey on Multimodal Large Language Models for Autonomous Driving [[WACVWorkshop2024]](https://openaccess.thecvf.com/content/WACV2024W/LLVM-AD/html/Cui_A_Survey_on_Multimodal_Large_Language_Models_for_Autonomous_Driving_WACVW_2024_paper.html)
+
+- Forging Vision Foundation Models for Autonomous Driving: Challenges, Methodologies, and Opportunities [[arXiv2024]](https://arxiv.org/abs/2401.08045)[[Code]](https://github.com/zhanghm1995/Forge_VFM4AD)![](https://img.shields.io/github/stars/zhanghm1995/Forge_VFM4AD.svg?style=social&label=Star&maxAge=2592000)
+
 - LLM4Drive: A Survey of Large Language Models for Autonomous Driving [[arXiv2023]](https://arxiv.org/abs/2311.01043)
 
-- A Language Agent for Autonomous Driving [[arXiv2023]](https://arxiv.org/abs/2311.10813)
+### Papers for VLM in Driving
+
+- DriveLM: Driving with Graph Visual Question Answering [[ECCV2024]](https://arxiv.org/abs/2312.14150)[[Code]](https://github.com/OpenDriveLab/DriveLM)![](https://img.shields.io/github/stars/OpenDriveLab/DriveLM.svg?style=social&label=Star&maxAge=2592000)
+
+- Reason2Drive: Towards Interpretable and Chain-based Reasoning for Autonomous Driving [[ECCV2024]](https://arxiv.org/abs/2312.03661)[[Code]](https://github.com/fudan-zvg/reason2drive)![](https://img.shields.io/github/stars/fudan-zvg/reason2drive.svg?style=social&label=Star&maxAge=2592000)
+
+- Asynchronous Large Language Model Enhanced Planner for Autonomous Driving [[ECCV2024]](https://arxiv.org/abs/2406.14556)[[Code]](https://github.com/memberRE/AsyncDriver)![](https://img.shields.io/github/stars/memberRE/AsyncDriver.svg?style=social&label=Star&maxAge=2592000)
+
+- LMDrive: Closed-Loop End-to-End Driving with Large Language Models [[CVPR2024]](https://arxiv.org/abs/2312.07488)[[Code]](https://github.com/opendilab/LMDrive)![](https://img.shields.io/github/stars/opendilab/LMDrive.svg?style=social&label=Star&maxAge=2592000)
+
+- Driving Everywhere with Large Language Model Policy Adaptation [[CVPR2024]](https://arxiv.org/abs/2402.05932)[[Code]](https://github.com/Boyiliee/LLaDA-AV)![](https://img.shields.io/github/stars/Boyiliee/LLaDA-AV.svg?style=social&label=Star&maxAge=2592000)
+
+- VLP: Vision Language Planning for Autonomous Driving [[CVPR2024]](https://arxiv.org/abs/2401.05577)
+
+- A Language Agent for Autonomous Driving [[COLM2024]](https://arxiv.org/abs/2311.10813)[[Code]](https://github.com/USC-GVL/Agent-Driver)![](https://img.shields.io/github/stars/USC-GVL/Agent-Driver.svg?style=social&label=Star&maxAge=2592000)
+
+- DriveGPT4: Interpretable End-to-end Autonomous Driving via Large Language Model [[RAL2024]](https://arxiv.org/abs/2310.01412)
+
+- Driving with LLMs: Fusing Object-Level Vector Modality for Explainable Autonomous Driving [[ICRA2024]](https://browse.arxiv.org/abs/2310.01957)[[Code]](https://github.com/wayveai/Driving-with-LLMs)![](https://img.shields.io/github/stars/wayveai/Driving-with-LLMs.svg?style=social&label=Star&maxAge=2592000)
+
+- Prompting Multi-Modal Tokens to Enhance End-to-End Autonomous Driving Imitation Learning with LLMs [[ICRA2024]](https://arxiv.org/abs/2404.04869)
+
+- DriVLMe: Enhancing LLM-based Autonomous Driving Agents with Embodied and Social Experiences [[IROS2024]](https://arxiv.org/abs/2406.03008)
+
+- Pix2Planning: End-to-End Planning by Vision-language Model for Autonomous Driving on Carla Simulator [[IV2024]](https://ieeexplore.ieee.org/abstract/document/10588479)
+
+- LangProp: A code optimization framework using Large Language Models applied to driving [[ICLRWorkshop2024]](https://arxiv.org/abs/2401.10314)[[Code]](https://github.com/shuishida/LangProp)![](https://img.shields.io/github/stars/shuishida/LangProp.svg?style=social&label=Star&maxAge=2592000)
+
+- SimpleLLM4AD: An End-to-End Vision-Language Model with Graph Visual Question Answering for Autonomous Driving [[arXiv2024]](https://arxiv.org/abs/2407.21293)
+
+- An LLM-enhanced Multi-objective Evolutionary Search for Autonomous Driving Test Scenario Generation [[arXiv2024]](https://arxiv.org/abs/2406.10857)
+
+- OmniDrive: A Holistic LLM-Agent Framework for Autonomous Driving with 3D Perception, Reasoning and Planning [[arXiv2024]](https://arxiv.org/abs/2405.01533)[[Code]](https://github.com/NVlabs/OmniDrive)![](https://img.shields.io/github/stars/NVlabs/OmniDrive.svg?style=social&label=Star&maxAge=2592000)
+
+- Continuously Learning, Adapting, and Improving: A Dual-Process Approach to Autonomous Driving [[arXiv2024]](https://arxiv.org/abs/2405.15324)[[Code]](https://github.com/PJLab-ADG/LeapAD)![](https://img.shields.io/github/stars/PJLab-ADG/LeapAD.svg?style=social&label=Star&maxAge=2592000)
+
+- Is a 3D-Tokenized LLM the Key to Reliable Autonomous Driving? [[arXiv2024]](https://arxiv.org/abs/2405.18361)
+
+- DriveCoT: Integrating Chain-of-Thought Reasoning with End-to-End Driving [[arXiv2024]](https://arxiv.org/abs/2403.16996)
+
+- RAG-Driver: Generalisable Driving Explanations with Retrieval-Augmented In-Context Learning in Multi-Modal Large Language Model [[arXiv2024]](https://arxiv.org/abs/2402.10828)
+
+- DriveVLM: The Convergence of Autonomous Driving and Large Vision-Language Models [[arXiv2024]](https://arxiv.org/abs/2402.12289)
+
+- Hybrid Reasoning Based on Large Language Models for Autonomous Car Driving [[arXiv2024]](https://arxiv.org/abs/2402.13602)
+
+- DME-Driver: Integrating Human Decision Logic and 3D Scene Perception in Autonomous Driving [[arXiv2024]](https://arxiv.org/abs/2401.03641)
+
+- LingoQA: Video Question Answering for Autonomous Driving [[arXiv2023]](https://arxiv.org/abs/2312.14115)[[Code]](https://github.com/wayveai/LingoQA/)![](https://img.shields.io/github/stars/wayveai/LingoQA.svg?style=social&label=Star&maxAge=2592000)
+
+- Dolphins: Multimodal Language Model for Driving [[arXiv2023]](https://arxiv.org/abs/2312.00438)[[Code]](https://github.com/SaFoLab-WISC/Dolphins)![](https://img.shields.io/github/stars/SaFoLab-WISC/Dolphins.svg?style=social&label=Star&maxAge=2592000)
 
 - GPT-Driver: Learning to Drive with GPT [[arXiv2023]](https://arxiv.org/abs/2310.01415)
 
-- DriveGPT4: Interpretable End-to-end Autonomous Driving via Large Language Model [[arXiv2023]](https://arxiv.org/abs/2310.01412)
-
-- Ground then Navigate: Language-guided Navigation in Dynamic Scenes [[arXiv2022]](https://arxiv.org/abs/2209.11972)
-
-- Driving with LLMs: Fusing Object-Level Vector Modality for Explainable Autonomous Driving [[arXiv2023]](https://browse.arxiv.org/abs/2310.01957)
+- Language Prompt for Autonomous Driving [[arXiv2023]](https://arxiv.org/abs/2309.04379)[[Code]](https://github.com/wudongming97/Prompt4Driving)![](https://img.shields.io/github/stars/wudongming97/Prompt4Driving.svg?style=social&label=Star&maxAge=2592000)
 
 - DOROTHIE: Spoken Dialogue for Handling Unexpected Situations in Interactive Autonomous Driving Agents
- [[EMNLP2022(Findings)]](https://arxiv.org/abs/2210.12511)[[code]](https://github.com/sled-group/DOROTHIE)
+ [[EMNLP2022(Findings)]](https://arxiv.org/abs/2210.12511)[[Code]](https://github.com/sled-group/DOROTHIE)
 
 - LM-Nav: Robotic Navigation with Large Pre-Trained Models of Language, Vision, and Action [[CoRL2022]](https://proceedings.mlr.press/v205/shah23b.html)
+
+- Ground then Navigate: Language-guided Navigation in Dynamic Scenes [[arXiv2022]](https://arxiv.org/abs/2209.11972)
 
 - Generating Landmark Navigation Instructions from Maps as a Graph-to-Text Problem [[ACL2021]](https://arxiv.org/abs/2012.15329)
 
@@ -113,11 +173,33 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 <!-- <details><summary>(Click for details)</summary> -->
 
+- Think2Drive: Efficient Reinforcement Learning by Thinking in Latent World Model for Quasi-Realistic Autonomous Driving (in CARLA-v2) [[ECCV2024]](https://arxiv.org/abs/2402.16720)
+
+- WoVoGen: World Volume-aware Diffusion for Controllable Multi-camera Driving Scene Generation [[ECCV2024]](https://arxiv.org/abs/2312.02934)[[Code]](https://github.com/fudan-zvg/WoVoGen)![](https://img.shields.io/github/stars/fudan-zvg/WoVoGen.svg?style=social&label=Star&maxAge=2592000)
+
+- OccWorld: Learning a 3D Occupancy World Model for Autonomous Driving [[ECCV2024]](https://arxiv.org/abs/2311.16038)[[Code]](https://github.com/wzzheng/OccWorld)![](https://img.shields.io/github/stars/wzzheng/OccWorld.svg?style=social&label=Star&maxAge=2592000)
+
+- Visual Point Cloud Forecasting enables Scalable Autonomous Driving [[CVPR2024]](https://arxiv.org/abs/2312.17655)[[Code]](https://github.com/OpenDriveLab/ViDAR)![](https://img.shields.io/github/stars/OpenDriveLab/ViDAR.svg?style=social&label=Star&maxAge=2592000)
+
+- GenAD: Generalized Predictive Model for Autonomous Driving [[CVPR2024]](https://arxiv.org/abs/2403.09630)[[Code]](https://github.com/OpenDriveLab/DriveAGI)![](https://img.shields.io/github/stars/OpenDriveLab/DriveAGI.svg?style=social&label=Star&maxAge=2592000)
+
+- DriveWorld: 4D Pre-trained Scene Understanding via World Models for Autonomous Driving [[CVPR2024]](https://arxiv.org/abs/2405.04390)
+
+- Vista: A Generalizable Driving World Model with High Fidelity and Versatile Controllability [[arXiv2024]](https://arxiv.org/abs/2405.17398)[[Code]](https://github.com/OpenDriveLab/Vista)![](https://img.shields.io/github/stars/OpenDriveLab/Vista.svg?style=social&label=Star&maxAge=2592000)
+
+- Enhancing End-to-End Autonomous Driving with Latent World Model [[arXiv2024]](https://arxiv.org/abs/2406.08481)[[Code]](https://github.com/BraveGroup/LAW)![](https://img.shields.io/github/stars/BraveGroup/LAW.svg?style=social&label=Star&maxAge=2592000)
+
+- BEVWorld: A Multimodal World Model for Autonomous Driving via Unified BEV Latent Space [[arXiv2024]](https://arxiv.org/abs/2407.05679)[[Code]](https://github.com/zympsyche/BevWorld)![](https://img.shields.io/github/stars/zympsyche/BevWorld.svg?style=social&label=Star&maxAge=2592000)
+
+- Unleashing Generalization of End-to-End Autonomous Driving with Controllable Long Video Generation [[arXiv2024]](https://arxiv.org/abs/2406.01349)[[Code]](https://github.com/westlake-autolab/Delphi)![](https://img.shields.io/github/stars/westlake-autolab/Delphi.svg?style=social&label=Star&maxAge=2592000)
+
+- DriveDreamer-2: LLM-Enhanced World Models for Diverse Driving Video Generation [[arXiv2024]](https://arxiv.org/abs/2403.06845)[[Code]](https://github.com/f1yfisher/DriveDreamer2)![](https://img.shields.io/github/stars/f1yfisher/DriveDreamer2.svg?style=social&label=Star&maxAge=2592000)
+
+- CarDreamer: Open-Source Learning Platform for World Model based Autonomous Driving [[arXiv2024]](https://arxiv.org/abs/2405.09111)[[Code]](https://github.com/ucd-dare/CarDreamer)![](https://img.shields.io/github/stars/ucd-dare/CarDreamer.svg?style=social&label=Star&maxAge=2592000)
+
 - GAIA-1: A Generative World Model for Autonomous Driving [[arXiv2023]](https://arxiv.org/abs/2309.17080)
 
 - ADriver-I: A General World Model for Autonomous Driving [[arXiv2023]](https://arxiv.org/abs/2311.13549)
-
-- OccWorld: Learning a 3D Occupancy World Model for Autonomous Driving [[arXiv2023]](https://arxiv.org/abs/2311.16038)[[Code]](https://github.com/wzzheng/OccWorld)![](https://img.shields.io/github/stars/wzzheng/OccWorld.svg?style=social&label=Star&maxAge=2592000)
 
 - DriveDreamer: Towards Real-world-driven World Models for Autonomous Driving [[arXiv2023]](https://arxiv.org/abs/2309.09777)[[Code]](https://github.com/JeffWang987/DriveDreamer)![](https://img.shields.io/github/stars/JeffWang987/DriveDreamer.svg?style=social&label=Star&maxAge=2592000)
 
@@ -151,7 +233,17 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 <!-- <details><summary>(Click for details)</summary> -->
 
-- Hidden Biases of End-to-End Driving Models [[ICCV2023]](https://arxiv.org/abs/2306.07957)[[code]](https://github.com/autonomousvision/carla_garage)![](https://img.shields.io/github/stars/autonomousvision/carla_garage.svg?style=social&label=Star&maxAge=2592000)
+- DualAT: Dual Attention Transformer for End-to-End Autonomous Driving [[ICRA2024]](https://ieeexplore.ieee.org/abstract/document/10610334)
+
+- DRAMA: An Efficient End-to-end Motion Planner for Autonomous Driving with Mamba [[arXiv2024]](https://arxiv.org/abs/2408.03601)[[Code]](https://github.com/Chengran-Yuan/DRAMA)![](https://img.shields.io/github/stars/Chengran-Yuan/DRAMA.svg?style=social&label=Star&maxAge=2592000)
+
+- MaskFuser: Masked Fusion of Joint Multi-Modal Tokenization for End-to-End Autonomous Driving [[arXiv2024]](https://arxiv.org/abs/2405.07573)
+
+- M2DA: Multi-Modal Fusion Transformer Incorporating Driver Attention for Autonomous Driving [[arXiv2024]](https://arxiv.org/abs/2403.12552)
+
+- Utilizing Navigation Paths to Generate Target Points for Enhanced End-to-End Autonomous Driving Planning [[arXiv2024]](https://arxiv.org/abs/2406.08349)
+
+- Hidden Biases of End-to-End Driving Models [[ICCV2023]](https://arxiv.org/abs/2306.07957)[[Code]](https://github.com/autonomousvision/carla_garage)![](https://img.shields.io/github/stars/autonomousvision/carla_garage.svg?style=social&label=Star&maxAge=2592000)
 
 - Learning to Drive Anywhere [[CoRL2023]](https://arxiv.org/abs/2309.12295)
 
@@ -159,13 +251,15 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 - ReasonNet: End-to-End Driving with Temporal and Global Reasoning [[CVPR2023]](https://arxiv.org/abs/2305.10507)
 
+- Scaling Vision-Based End-to-End Autonomous Driving with Multi-View Attention Learning [[IROS2023]](https://ieeexplore.ieee.org/abstract/document/10341506)
+
 - FusionAD: Multi-modality Fusion for Prediction and Planning Tasks of Autonomous Driving [[arXiv2023]](https://arxiv.org/abs/2308.01006)
 
 - Enhance Sample Efficiency and Robustness of End-to-end Urban Autonomous Driving via Semantic Masked World Model [[NeurIPSWorkshop2022]](https://arxiv.org/abs/2210.04017)
 
 - End-to-end Autonomous Driving with Semantic Depth Cloud Mapping and Multi-agent [[IV2022]](https://arxiv.org/abs/2204.05513)
 
-- MMFN: Multi-Modal-Fusion-Net for End-to-End Driving [[IROS2022]](https://arxiv.org/abs/2207.00186)[[code]](https://github.com/Kin-Zhang/mmfn)![](https://img.shields.io/github/stars/Kin-Zhang/mmfn.svg?style=social&label=Star&maxAge=2592000)
+- MMFN: Multi-Modal-Fusion-Net for End-to-End Driving [[IROS2022]](https://arxiv.org/abs/2207.00186)[[Code]](https://github.com/Kin-Zhang/mmfn)![](https://img.shields.io/github/stars/Kin-Zhang/mmfn.svg?style=social&label=Star&maxAge=2592000)
 
 - Interpretable End-to-End Urban Autonomous Driving With Latent Deep Reinforcement Learning [[TITS2022]](https://arxiv.org/abs/2001.08726)[[Code]](https://github.com/cjy1992/interp-e2e-driving.git)![](https://img.shields.io/github/stars/cjy1992/interp-e2e-driving.svg?style=social&label=Star&maxAge=2592000)
 
@@ -203,21 +297,23 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 <!-- <details><summary>(Click for details)</summary> -->
 
+- PARA-Drive: Parallelized Architecture for Real-time Autonomous Driving [[CVPR2024]](https://openaccess.thecvf.com/content/CVPR2024/html/Weng_PARA-Drive_Parallelized_Architecture_for_Real-time_Autonomous_Driving_CVPR_2024_paper.html)
+
 - Planning-oriented Autonomous Driving [[CVPR2023]](https://arxiv.org/abs/2212.10156)[[Code]](https://github.com/OpenDriveLab/UniAD)![](https://img.shields.io/github/stars/OpenDriveLab/UniAD.svg?style=social&label=Star&maxAge=2592000)
 
-- Think Twice before Driving: Towards Scalable Decoders for End-to-End Autonomous Driving [[CVPR2023]](https://arxiv.org/abs/2305.06242)[[code]](https://github.com/OpenDriveLab/ThinkTwice)![](https://img.shields.io/github/stars/OpenDriveLab/ThinkTwice.svg?style=social&label=Star&maxAge=2592000)
+- Think Twice before Driving: Towards Scalable Decoders for End-to-End Autonomous Driving [[CVPR2023]](https://arxiv.org/abs/2305.06242)[[Code]](https://github.com/OpenDriveLab/ThinkTwice)![](https://img.shields.io/github/stars/OpenDriveLab/ThinkTwice.svg?style=social&label=Star&maxAge=2592000)
 
 - Coaching a Teachable Student [[CVPR2023]](https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Coaching_a_Teachable_Student_CVPR_2023_paper.html)
 
 - ReasonNet: End-to-End Driving with Temporal and Global Reasoning [[CVPR2023]](https://arxiv.org/abs/2305.10507)
 
-- Hidden Biases of End-to-End Driving Models [[ICCV2023]](https://arxiv.org/abs/2306.07957)[[code]](https://github.com/autonomousvision/carla_garage)![](https://img.shields.io/github/stars/autonomousvision/carla_garage.svg?style=social&label=Star&maxAge=2592000)
+- Hidden Biases of End-to-End Driving Models [[ICCV2023]](https://arxiv.org/abs/2306.07957)[[Code]](https://github.com/autonomousvision/carla_garage)![](https://img.shields.io/github/stars/autonomousvision/carla_garage.svg?style=social&label=Star&maxAge=2592000)
 
-- VAD: Vectorized Scene Representation for Efficient Autonomous Driving [[ICCV2023]](https://arxiv.org/abs/2303.12077)[[code]](https://github.com/hustvl/VAD)![](https://img.shields.io/github/stars/hustvl/VAD.svg?style=social&label=Star&maxAge=2592000)
+- VAD: Vectorized Scene Representation for Efficient Autonomous Driving [[ICCV2023]](https://arxiv.org/abs/2303.12077)[[Code]](https://github.com/hustvl/VAD)![](https://img.shields.io/github/stars/hustvl/VAD.svg?style=social&label=Star&maxAge=2592000)
 
 - TransFuser: Imitation with Transformer-Based Sensor Fusion for Autonomous Driving [[TPAMI2022]](https://arxiv.org/abs/2205.15997)[[Code]](https://github.com/autonomousvision/transfuser.git)![](https://img.shields.io/github/stars/autonomousvision/transfuser.svg?style=social&label=Star&maxAge=2592000)
     
-- Trajectory-guided Control Prediction for End-to-end Autonomous Driving: A Simple yet Strong Baseline [[NeurIPS2022]](https://arxiv.org/abs/2206.08129) [[code]](https://github.com/OpenDriveLab/TCP)![](https://img.shields.io/github/stars/OpenDriveLab/TCP.svg?style=social&label=Star&maxAge=2592000)
+- Trajectory-guided Control Prediction for End-to-end Autonomous Driving: A Simple yet Strong Baseline [[NeurIPS2022]](https://arxiv.org/abs/2206.08129) [[Code]](https://github.com/OpenDriveLab/TCP)![](https://img.shields.io/github/stars/OpenDriveLab/TCP.svg?style=social&label=Star&maxAge=2592000)
 
 - Safety-Enhanced Autonomous Driving Using Interpretable Sensor Fusion Transformer [[CoRL2022]](https://arxiv.org/abs/2207.14024)[[Code]](https://github.com/opendilab/InterFuser)![](https://img.shields.io/github/stars/opendilab/InterFuser.svg?style=social&label=Star&maxAge=2592000)
 
@@ -253,19 +349,23 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 ## Interpretability
 
-### Review
+### Review for Interpretability
 
-- Explainability of deep vision-based autonomous driving systems: Review and challenges [[IJCV2022]](https://arxiv.org/abs/2101.05307)
+- Explainable AI for Safe and Trustworthy Autonomous Driving: A Systematic Review [[arXiv2024]](https://arxiv.org/abs/2402.10086)
+
+- Explainability of Deep Vision-based Autonomous Driving Systems: Review and challenges [[IJCV2022]](https://arxiv.org/abs/2101.05307)
 
 ### Attention Visualization
 
 <!-- <details><summary>(Click for details)</summary> -->
 
+- Guiding Attention in End-to-End Driving Models [[IV2024]](https://arxiv.org/abs/2405.00242)
+
 - Scaling Self-Supervised End-to-End Driving with Multi-View Attention Learning [[arxiv2023]](https://arxiv.org/abs/2302.03198)
 
 - PlanT: Explainable Planning Transformers via Object-Level Representations [[CoRL2022]](https://arxiv.org/abs/2210.14222)[[Code]](https://github.com/autonomousvision/plant)![](https://img.shields.io/github/stars/autonomousvision/plant.svg?style=social&label=Star&maxAge=2592000)
 
-- MMFN: Multi-Modal-Fusion-Net for End-to-End Driving [[IROS2022]](https://arxiv.org/abs/2207.00186)[[code]](https://github.com/Kin-Zhang/mmfn)![](https://img.shields.io/github/stars/Kin-Zhang/mmfn.svg?style=social&label=Star&maxAge=2592000)
+- MMFN: Multi-Modal-Fusion-Net for End-to-End Driving [[IROS2022]](https://arxiv.org/abs/2207.00186)[[Code]](https://github.com/Kin-Zhang/mmfn)![](https://img.shields.io/github/stars/Kin-Zhang/mmfn.svg?style=social&label=Star&maxAge=2592000)
 
 - TransFuser: Imitation with Transformer-Based Sensor Fusion for Autonomous Driving [[TPAMI2022]](https://arxiv.org/abs/2205.15997)[[Code]](https://github.com/autonomousvision/transfuser.git)![](https://img.shields.io/github/stars/autonomousvision/transfuser.svg?style=social&label=Star&maxAge=2592000)
 
@@ -297,9 +397,9 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 - Planning-oriented Autonomous Driving [[CVPR2023]](https://arxiv.org/abs/2212.10156)[[Code]](https://github.com/OpenDriveLab/UniAD)![](https://img.shields.io/github/stars/OpenDriveLab/UniAD.svg?style=social&label=Star&maxAge=2592000)
 
-- Hidden Biases of End-to-End Driving Models [[ICCV2023]](https://arxiv.org/abs/2306.07957)[[code]](https://github.com/autonomousvision/carla_garage)![](https://img.shields.io/github/stars/autonomousvision/carla_garage.svg?style=social&label=Star&maxAge=2592000)
+- Hidden Biases of End-to-End Driving Models [[ICCV2023]](https://arxiv.org/abs/2306.07957)[[Code]](https://github.com/autonomousvision/carla_garage)![](https://img.shields.io/github/stars/autonomousvision/carla_garage.svg?style=social&label=Star&maxAge=2592000)
 
-- VAD: Vectorized Scene Representation for Efficient Autonomous Driving [[ICCV2023]](https://arxiv.org/abs/2303.12077)[[code]](https://github.com/hustvl/VAD)![](https://img.shields.io/github/stars/hustvl/VAD.svg?style=social&label=Star&maxAge=2592000)
+- VAD: Vectorized Scene Representation for Efficient Autonomous Driving [[ICCV2023]](https://arxiv.org/abs/2303.12077)[[Code]](https://github.com/hustvl/VAD)![](https://img.shields.io/github/stars/hustvl/VAD.svg?style=social&label=Star&maxAge=2592000)
 
 - Safety-Enhanced Autonomous Driving Using Interpretable Sensor Fusion Transformer [[CoRL2022]](https://arxiv.org/abs/2207.14024)[[Code]](https://github.com/opendilab/InterFuser)![](https://img.shields.io/github/stars/opendilab/InterFuser.svg?style=social&label=Star&maxAge=2592000)
 
@@ -332,6 +432,8 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 ### Cost Learning
 
 <!-- <details><summary>(Click for details)</summary> -->
+
+- QuAD: Query-based Interpretable Neural Motion Planning for Autonomous Driving [[ICRA2024]](https://arxiv.org/abs/2404.01486)
 
 - ST-P3: End-to-end Vision-based Autonomous Driving via Spatial-Temporal Feature Learning [[ECCV2022]](https://arxiv.org/abs/2207.07601)[[Code]](https://github.com/OpenDriveLab/ST-P3)![](https://img.shields.io/github/stars/OpenDriveLab/ST-P3.svg?style=social&label=Star&maxAge=2592000)
 
@@ -373,7 +475,7 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 <!-- <details><summary>(Click for details)</summary> -->
 
-- UAP-BEV: Uncertainty Aware Planning using Bird's Eye View generated from Surround Monocular Images [[CASE2023]](https://arxiv.org/abs/2306.04939)[[code]](https://github.com/Vikr-182/UAP-BEV)![](https://img.shields.io/github/stars/Vikr-182/UAP-BEV.svg?style=social&label=Star&maxAge=2592000)
+- UAP-BEV: Uncertainty Aware Planning using Bird's Eye View generated from Surround Monocular Images [[CASE2023]](https://arxiv.org/abs/2306.04939)[[Code]](https://github.com/Vikr-182/UAP-BEV)![](https://img.shields.io/github/stars/Vikr-182/UAP-BEV.svg?style=social&label=Star&maxAge=2592000)
 
 - Probabilistic End-to-End Vehicle Navigation in Complex Dynamic Environments With Multimodal Sensor Fusion [[RAL2020]](https://arxiv.org/abs/2005.01935)
 
@@ -407,11 +509,19 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 <!-- <details><summary>(Click for details)</summary> -->
 
+- Visual Point Cloud Forecasting enables Scalable Autonomous Driving [[CVPR2024]](https://arxiv.org/abs/2312.17655)[[Code]](https://github.com/OpenDriveLab/ViDAR)![](https://img.shields.io/github/stars/OpenDriveLab/ViDAR.svg?style=social&label=Star&maxAge=2592000)
+
+- DriveWorld: 4D Pre-trained Scene Understanding via World Models for Autonomous Driving [[CVPR2024]](https://arxiv.org/abs/2405.04390)
+
+- End-to-End Autonomous Driving without Costly Modularization and 3D Manual Annotation [[arXiv2024]](https://arxiv.org/abs/2406.17680)
+
 - Scene as Occupancy [[ICCV2023]](https://arxiv.org/abs/2306.02851)[[Code]](https://github.com/OpenDriveLab/OccNet)![](https://img.shields.io/github/stars/OpenDriveLab/OccNet?style=social&label=Star)
 
 - DriveAdapter: Breaking the Coupling Barrier of Perception and Planning in End-to-End Autonomous Driving [[ICCV2023]](https://arxiv.org/abs/2308.00398)[[Code]](https://github.com/OpenDriveLab/DriveAdapter)![](https://img.shields.io/github/stars/OpenDriveLab/DriveAdapter?style=social&label=Star)
 
 - Policy Pre-training for Autonomous Driving via Self-supervised Geometric Modeling [[ICLR2023]](https://openreview.net/forum?id=X5SUR7g2vVw)[[Code]](https://github.com/OpenDriveLab/PPGeo)![](https://img.shields.io/github/stars/OpenDriveLab/PPGeo.svg?style=social&label=Star&maxAge=2592000)
+
+- An End-to-End Autonomous Driving Pre-trained Transformer Model for Multi-Behavior-Optimal Trajectory Generation [[ITSC2023]](https://ieeexplore.ieee.org/abstract/document/10421847)
 
 - Pre-Trained Image Encoder for Generalizable Visual Reinforcement Learning [[NeurIPS2022]](https://openreview.net/forum?id=FQtku8rkp3)
 
@@ -447,13 +557,21 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 <!-- <details><summary>(Click for details)</summary> -->
 
+- Feedback-Guided Autonomous Driving [[CVPR2024]](https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_Feedback-Guided_Autonomous_Driving_CVPR_2024_paper.html)
+
+- On the Road to Portability: Compressing End-to-End Motion Planner for Autonomous Driving [[CVPR2024]](https://arxiv.org/abs/2403.01238)
+
+- Knowledge Distillation from Single-Task Teachers to Multi-Task Student for End-to-End Autonomous Driving [[AAAI2024]](https://ojs.aaai.org/index.php/AAAI/article/view/30388)[[Code]](https://github.com/pagand/e2etransfuser)![](https://img.shields.io/github/stars/pagand/e2etransfuser?style=social&label=Star)
+
+- Multi-Task Adaptive Gating Network for Trajectory Distilled Control Prediction [[RAL2024]](https://ieeexplore.ieee.org/abstract/document/10493137)
+
 - DriveAdapter: Breaking the Coupling Barrier of Perception and Planning in End-to-End Autonomous Driving [[ICCV2023]](https://arxiv.org/abs/2308.00398)[[Code]](https://github.com/OpenDriveLab/DriveAdapter)![](https://img.shields.io/github/stars/OpenDriveLab/DriveAdapter?style=social&label=Star)
 
 - Coaching a Teachable Student [[CVPR2023]](https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Coaching_a_Teachable_Student_CVPR_2023_paper.html)
 
 - Detrive: Imitation Learning with Transformer Detection for End-to-End Autonomous Driving [[DISA2023]](https://arxiv.org/abs/2310.14224)
 
-- Trajectory-guided Control Prediction for End-to-end Autonomous Driving: A Simple yet Strong Baseline [[NeurIPS2022]](https://arxiv.org/abs/2206.08129)[[code]](https://github.com/OpenDriveLab/TCP)![](https://img.shields.io/github/stars/OpenDriveLab/TCP.svg?style=social&label=Star&maxAge=2592000)
+- Trajectory-guided Control Prediction for End-to-end Autonomous Driving: A Simple yet Strong Baseline [[NeurIPS2022]](https://arxiv.org/abs/2206.08129)[[Code]](https://github.com/OpenDriveLab/TCP)![](https://img.shields.io/github/stars/OpenDriveLab/TCP.svg?style=social&label=Star&maxAge=2592000)
 
 - Learning from All Vehicles [[CVPR2022]](http://arxiv.org/pdf/1709.04622v4)[[Code]](https://github.com/dotchen/LAV.git)![](https://img.shields.io/github/stars/dotchen/LAV.svg?style=social&label=Star&maxAge=2592000)
 
@@ -475,9 +593,15 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 <!-- <details><summary>(Click for details)</summary> -->
 
+- Is Ego Status All You Need for Open-Loop End-to-End Autonomous Driving? [[CVPR2024]](https://arxiv.org/abs/2312.03031)[[Code]](https://github.com/NVlabs/BEV-Planner)![](https://img.shields.io/github/stars/NVlabs/BEV-Planner?style=social&label=Star)
+
+- Exploring the Causality of End-to-End Autonomous Driving [[arXiv2024]](https://arxiv.org/abs/2407.06546)[[Code]](https://github.com/bdvisl/DriveInsight)![](https://img.shields.io/github/stars/bdvisl/DriveInsight?style=social&label=Star)
+
 - DriveAdapter: Breaking the Coupling Barrier of Perception and Planning in End-to-End Autonomous Driving [[ICCV2023]](https://arxiv.org/abs/2308.00398)[[Code]](https://github.com/OpenDriveLab/DriveAdapter)![](https://img.shields.io/github/stars/OpenDriveLab/DriveAdapter?style=social&label=Star)
 
 - Rethinking the Open-Loop Evaluation of End-to-End Autonomous Driving in nuScenes [[arxiv2023]](https://arxiv.org/abs/2305.10430)
+
+- Safety-aware Causal Representation for Trustworthy Offline Reinforcement Learning in Autonomous Driving [[arXiv2023]](https://arxiv.org/abs/2311.10747)
 
 - Fighting Fire with Fire: Avoiding DNN Shortcuts through Priming [[ICML2022]](https://arxiv.org/abs/2206.10816)
 
@@ -508,6 +632,10 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 ### Long-tailed Distribution
 
 <!-- <details><summary>(Click for details)</summary> -->
+
+- An LLM-enhanced Multi-objective Evolutionary Search for Autonomous Driving Test Scenario Generation [[arXiv2024]](https://arxiv.org/abs/2406.10857)
+
+- Unleashing Generalization of End-to-End Autonomous Driving with Controllable Long Video Generation [[arXiv2024]](https://arxiv.org/abs/2406.01349)[[Code]](https://github.com/westlake-autolab/Delphi)![](https://img.shields.io/github/stars/westlake-autolab/Delphi.svg?style=social&label=Star&maxAge=2592000)
 
 - CAT: Closed-loop Adversarial Training for Safe End-to-End Driving [[CoRL2023]](https://openreview.net/forum?id=VtJqMs9ig20)
 
@@ -562,11 +690,20 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 ### Domain Adaptation
 
 <!-- <details><summary>(Click for details)</summary> -->
-- DriveAdapter: Breaking the Coupling Barrier of Perception and Planning in End-to-End Autonomous Driving [[ICCV2023]](https://arxiv.org/abs/2308.00398)[[code]](https://github.com/OpenDriveLab/DriveAdapter)![](https://img.shields.io/github/stars/OpenDriveLab/DriveAdapter?style=social&label=Star)
+
+- Uncertainty-Guided Never-Ending Learning to Drive [[CVPR2024]](https://openaccess.thecvf.com/content/CVPR2024/html/Lai_Uncertainty-Guided_Never-Ending_Learning_to_Drive_CVPR_2024_paper.html)[[Code]](https://github.com/h2xlab/InfDriver)![](https://img.shields.io/github/stars/h2xlab/InfDriver?style=social&label=Star)
+
+- A Comparison of Imitation Learning Pipelines for Autonomous Driving on the Effect of Change in Ego-vehicle [[IV2024]](https://ieeexplore.ieee.org/abstract/document/10588638)
+
+- Balanced Training for the End-to-End Autonomous Driving Model Based on Kernel Density Estimation [[IV2024]](https://ieeexplore.ieee.org/abstract/document/10588649)
+
+- ActiveAD: Planning-Oriented Active Learning for End-to-End Autonomous Driving [[arXiv2024]](https://arxiv.org/abs/2403.02877)
+
+- DriveAdapter: Breaking the Coupling Barrier of Perception and Planning in End-to-End Autonomous Driving [[ICCV2023]](https://arxiv.org/abs/2308.00398)[[Code]](https://github.com/OpenDriveLab/DriveAdapter)![](https://img.shields.io/github/stars/OpenDriveLab/DriveAdapter?style=social&label=Star)
 
 - Learning to Drive Anywhere [[CoRL2023]](https://arxiv.org/abs/2309.12295)
 
-- SHIFT: A Synthetic Driving Dataset for Continuous Multi-Task Domain Adaptation [[CVPR2022]](https://arxiv.org/abs/2206.08367)[[code]](https://github.com/SysCV/shift-dev)
+- SHIFT: A Synthetic Driving Dataset for Continuous Multi-Task Domain Adaptation [[CVPR2022]](https://arxiv.org/abs/2206.08367)[[Code]](https://github.com/SysCV/shift-dev)
 
 - Learning Interactive Driving Policies via Data-driven Simulation [[ICRA2022]](https://ieeexplore.ieee.org/abstract/document/9812407)
 
@@ -594,6 +731,8 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 <!-- <details><summary>(Click for details)</summary> -->
 
+- Enhance Planning with Physics-informed Safety Controller for End-to-end Autonomous Driving [[arXiv2024]](https://arxiv.org/abs/2405.00316)
+
 - Safety-Enhanced Autonomous Driving Using Interpretable Sensor Fusion Transformer [[CoRL2022]](https://arxiv.org/abs/2207.14024)[[Code]](https://github.com/opendilab/InterFuser)![](https://img.shields.io/github/stars/opendilab/InterFuser.svg?style=social&label=Star&maxAge=2592000)
 
 - Multi-Task Learning With Attention for End-to-End Autonomous Driving [[CVPRWorkshop2021]](https://arxiv.org/abs/2104.10753)
@@ -602,7 +741,7 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 - Policy-Based Reinforcement Learning for Training Autonomous Driving Agents in Urban Areas With Affordance Learning [[TITS2021]](https://ieeexplore.ieee.org/abstract/document/9599578)
 
-- Conditional Affordance Learning for Driving in Urban Environments [[CoRL2018]](https://proceedings.mlr.press/v87/sauer18a.html)[[code]](https://github.com/xl-sr/CAL)![](https://img.shields.io/github/stars/xl-sr/CAL.svg?style=social&label=Star&maxAge=2592000)
+- Conditional Affordance Learning for Driving in Urban Environments [[CoRL2018]](https://proceedings.mlr.press/v87/sauer18a.html)[[Code]](https://github.com/xl-sr/CAL)![](https://img.shields.io/github/stars/xl-sr/CAL.svg?style=social&label=Star&maxAge=2592000)
 
 <!-- </details> -->
 
@@ -612,23 +751,37 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 <!-- <details><summary>(Click for details)</summary> -->
 
+- Visual Point Cloud Forecasting enables Scalable Autonomous Driving [[CVPR2024]](https://arxiv.org/abs/2312.17655)[[Code]](https://github.com/OpenDriveLab/ViDAR)![](https://img.shields.io/github/stars/OpenDriveLab/ViDAR.svg?style=social&label=Star&maxAge=2592000)
+
+- DualAD: Disentangling the Dynamic and Static World for End-to-End Driving [[CVPR2024]](https://openaccess.thecvf.com/content/CVPR2024/html/Doll_DualAD_Disentangling_the_Dynamic_and_Static_World_for_End-to-End_Driving_CVPR_2024_paper.html)
+
+- ParkingE2E: Camera-based End-to-end Parking Network, from Images to Planning [[IROS2024]](https://arxiv.org/abs/2408.02061)[[Code]](https://github.com/qintonguav/ParkingE2E)![](https://img.shields.io/github/stars/qintonguav/ParkingE2E.svg?style=social&label=Star&maxAge=2592000)
+
+- E2E Parking: Autonomous Parking by the End-to-end Neural Network on the CARLA Simulator [[IV2024]](https://ieeexplore.ieee.org/abstract/document/10588551)[[Code]](https://github.com/qintonguav/e2e-parking-carla)![](https://img.shields.io/github/stars/qintonguav/e2e-parking-carla.svg?style=social&label=Star&maxAge=2592000)
+
 - BEVGPT: Generative Pre-trained Large Model for Autonomous Driving Prediction, Decision-Making, and Planning [[AAAI2024]](https://arxiv.org/abs/2310.10357)
 
-- DriveAdapter: Breaking the Coupling Barrier of Perception and Planning in End-to-End Autonomous Driving [[ICCV2023]](https://arxiv.org/abs/2308.00398)[[code]](https://github.com/OpenDriveLab/DriveAdapter)![](https://img.shields.io/github/stars/OpenDriveLab/DriveAdapter?style=social&label=Star)
+- PolarPoint-BEV: Bird-eye-view Perception in Polar Points for Explainable End-to-end Autonomous Driving [[TIV2024]](https://ieeexplore.ieee.org/abstract/document/10418570)
+
+- Hybrid-Prediction Integrated Planning for Autonomous Driving [[arXiv2024]](https://arxiv.org/abs/2402.02426)[[Code]](https://github.com/zhangyp15/GraphAD)![](https://img.shields.io/github/stars/zhangyp15/GraphAD.svg?style=social&label=Star&maxAge=2592000)
+
+- GraphAD: Interaction Scene Graph for End-to-end Autonomous Driving [[arXiv2024]](https://arxiv.org/abs/2403.19098)[[Code]](https://github.com/georgeliu233/HPP)![](https://img.shields.io/github/stars/georgeliu233/HPP.svg?style=social&label=Star&maxAge=2592000)
+
+- DriveAdapter: Breaking the Coupling Barrier of Perception and Planning in End-to-End Autonomous Driving [[ICCV2023]](https://arxiv.org/abs/2308.00398)[[Code]](https://github.com/OpenDriveLab/DriveAdapter)![](https://img.shields.io/github/stars/OpenDriveLab/DriveAdapter?style=social&label=Star)
 
 - Planning-oriented Autonomous Driving [[CVPR2023]](https://arxiv.org/abs/2212.10156)[[Code]](https://github.com/OpenDriveLab/UniAD)![](https://img.shields.io/github/stars/OpenDriveLab/UniAD.svg?style=social&label=Star&maxAge=2592000)
   
-- Think Twice before Driving: Towards Scalable Decoders for End-to-End Autonomous Driving [[CVPR2023]](https://arxiv.org/abs/2305.06242)[[code]](https://github.com/OpenDriveLab/ThinkTwice)![](https://img.shields.io/github/stars/OpenDriveLab/ThinkTwice.svg?style=social&label=Star&maxAge=2592000)
+- Think Twice before Driving: Towards Scalable Decoders for End-to-End Autonomous Driving [[CVPR2023]](https://arxiv.org/abs/2305.06242)[[Code]](https://github.com/OpenDriveLab/ThinkTwice)![](https://img.shields.io/github/stars/OpenDriveLab/ThinkTwice.svg?style=social&label=Star&maxAge=2592000)
 
 - Coaching a Teachable Student [[CVPR2023]](https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Coaching_a_Teachable_Student_CVPR_2023_paper.html)
 
 - ReasonNet: End-to-End Driving with Temporal and Global Reasoning [[CVPR2023]](https://arxiv.org/abs/2305.10507)
 
-- VAD: Vectorized Scene Representation for Efficient Autonomous Driving [[ICCV2023]](https://arxiv.org/abs/2303.12077)[[code]](https://github.com/hustvl/VAD)![](https://img.shields.io/github/stars/hustvl/VAD.svg?style=social&label=Star&maxAge=2592000)
+- VAD: Vectorized Scene Representation for Efficient Autonomous Driving [[ICCV2023]](https://arxiv.org/abs/2303.12077)[[Code]](https://github.com/hustvl/VAD)![](https://img.shields.io/github/stars/hustvl/VAD.svg?style=social&label=Star&maxAge=2592000)
 
 - FusionAD: Multi-modality Fusion for Prediction and Planning Tasks of Autonomous Driving [[arXiv2023]](https://arxiv.org/abs/2308.01006)
 
-- UAP-BEV: Uncertainty Aware Planning using Bird's Eye View generated from Surround Monocular Images [[CASE2023]](https://arxiv.org/abs/2306.04939)[[code]](https://github.com/Vikr-182/UAP-BEV)![](https://img.shields.io/github/stars/Vikr-182/UAP-BEV.svg?style=social&label=Star&maxAge=2592000)
+- UAP-BEV: Uncertainty Aware Planning using Bird's Eye View generated from Surround Monocular Images [[CASE2023]](https://arxiv.org/abs/2306.04939)[[Code]](https://github.com/Vikr-182/UAP-BEV)![](https://img.shields.io/github/stars/Vikr-182/UAP-BEV.svg?style=social&label=Star&maxAge=2592000)
 
 - Enhance Sample Efficiency and Robustness of End-to-end Urban Autonomous Driving via Semantic Masked World Model [[NeurIPSWorkshop2022]](https://arxiv.org/abs/2210.04017)
 
@@ -662,15 +815,31 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 <!-- <details><summary>(Click for details)</summary> -->
 
+- PPAD: Iterative Interactions of Prediction and Planning for End-to-end Autonomous Driving [[ECCV2024]](https://arxiv.org/abs/2311.08100)[[Code]](https://github.com/zlichen/PPAD)![](https://img.shields.io/github/stars/zlichen/PPAD.svg?style=social&label=Star&maxAge=2592000)
+
+- DualAD: Disentangling the Dynamic and Static World for End-to-End Driving [[CVPR2024]](https://openaccess.thecvf.com/content/CVPR2024/html/Doll_DualAD_Disentangling_the_Dynamic_and_Static_World_for_End-to-End_Driving_CVPR_2024_paper.html)
+
+- Target-point Attention Transformer: A novel trajectory predict network for end-to-end autonomous driving [[IV2024]](https://ieeexplore.ieee.org/abstract/document/10588617)
+
+- Hybrid-Prediction Integrated Planning for Autonomous Driving [[arXiv2024]](https://arxiv.org/abs/2402.02426)[[Code]](https://github.com/georgeliu233/HPP)![](https://img.shields.io/github/stars/georgeliu233/HPP.svg?style=social&label=Star&maxAge=2592000)
+
+- SparseAD: Sparse Query-Centric Paradigm for Efficient End-to-End Autonomous Driving [[arXiv2024]](https://arxiv.org/abs/2404.06892)
+
+- VADv2: End-to-End Vectorized Autonomous Driving via Probabilistic Planning [[arXiv2024]](https://arxiv.org/abs/2402.13243)
+
+- DRAMA: An Efficient End-to-end Motion Planner for Autonomous Driving with Mamba [[arXiv2024]](https://arxiv.org/abs/2408.03601)[[Code]](https://github.com/Chengran-Yuan/DRAMA)![](https://img.shields.io/github/stars/Chengran-Yuan/DRAMA.svg?style=social&label=Star&maxAge=2592000)
+
+- LeGo-Drive: Language-enhanced Goal-oriented Closed-Loop End-to-End Autonomous Driving [[arXiv2024]](https://arxiv.org/abs/2403.20116)[[Code]](https://github.com/reachpranjal/lego-drive)![](https://img.shields.io/github/stars/reachpranjal/lego-drive.svg?style=social&label=Star&maxAge=2592000)
+
 - Planning-oriented Autonomous Driving [[CVPR2023]](https://arxiv.org/abs/2212.10156)[[Code]](https://github.com/OpenDriveLab/UniAD)![](https://img.shields.io/github/stars/OpenDriveLab/UniAD.svg?style=social&label=Star&maxAge=2592000)
   
-- Think Twice before Driving: Towards Scalable Decoders for End-to-End Autonomous Driving [[CVPR2023]](https://arxiv.org/abs/2305.06242)[[code]](https://github.com/OpenDriveLab/ThinkTwice)![](https://img.shields.io/github/stars/OpenDriveLab/ThinkTwice.svg?style=social&label=Star&maxAge=2592000)
+- Think Twice before Driving: Towards Scalable Decoders for End-to-End Autonomous Driving [[CVPR2023]](https://arxiv.org/abs/2305.06242)[[Code]](https://github.com/OpenDriveLab/ThinkTwice)![](https://img.shields.io/github/stars/OpenDriveLab/ThinkTwice.svg?style=social&label=Star&maxAge=2592000)
 
 - ReasonNet: End-to-End Driving with Temporal and Global Reasoning [[CVPR2023]](https://arxiv.org/abs/2305.10507)
 
-- Hidden Biases of End-to-End Driving Models [[ICCV2023]](https://arxiv.org/abs/2306.07957)[[code]](https://github.com/autonomousvision/carla_garage)![](https://img.shields.io/github/stars/autonomousvision/carla_garage.svg?style=social&label=Star&maxAge=2592000)
+- Hidden Biases of End-to-End Driving Models [[ICCV2023]](https://arxiv.org/abs/2306.07957)[[Code]](https://github.com/autonomousvision/carla_garage)![](https://img.shields.io/github/stars/autonomousvision/carla_garage.svg?style=social&label=Star&maxAge=2592000)
 
-- VAD: Vectorized Scene Representation for Efficient Autonomous Driving [[ICCV2023]](https://arxiv.org/abs/2303.12077)[[code]](https://github.com/hustvl/VAD)![](https://img.shields.io/github/stars/hustvl/VAD.svg?style=social&label=Star&maxAge=2592000)
+- VAD: Vectorized Scene Representation for Efficient Autonomous Driving [[ICCV2023]](https://arxiv.org/abs/2303.12077)[[Code]](https://github.com/hustvl/VAD)![](https://img.shields.io/github/stars/hustvl/VAD.svg?style=social&label=Star&maxAge=2592000)
 
 - Detrive: Imitation Learning with Transformer Detection for End-to-End Autonomous Driving [[DISA2023]](https://arxiv.org/abs/2310.14224)
 
@@ -702,6 +871,12 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 <!-- <details><summary>(Click for details)</summary> -->
 
+- ICOP: Image-based Cooperative Perception for End-to-End Autonomous Driving [[IV2024]](https://ieeexplore.ieee.org/abstract/document/10588825)
+
+- Towards Collaborative Autonomous Driving: Simulation Platform and End-to-End System [[arXiv2024]](https://arxiv.org/abs/2404.09496)[[Code]](https://github.com/CollaborativePerception/V2Xverse)![](https://img.shields.io/github/stars/CollaborativePerception/V2Xverse.svg?style=social&label=Star&maxAge=2592000)
+
+- End-to-End Autonomous Driving through V2X Cooperation [[arXiv2024]](https://arxiv.org/abs/2404.00717)[[Code]](https://github.com/AIR-THU/UniV2X)![](https://img.shields.io/github/stars/AIR-THU/UniV2X.svg?style=social&label=Star&maxAge=2592000)
+
 - CADRE: A Cascade Deep Reinforcement Learning Framework for Vision-Based Autonomous Urban Driving [[AAAI2022]](https://arxiv.org/abs/2202.08557)[[Code]](https://github.com/BIT-MCS/Cadre.git)![](https://img.shields.io/github/stars/BIT-MCS/Cadre.svg?style=social&label=Star&maxAge=2592000)
 
 - COOPERNAUT: End-to-End Driving with Cooperative Perception for Networked Vehicles [[CVPR2022]](https://arxiv.org/abs/2205.02222)[[Code]](https://github.com/UT-Austin-RPL/Coopernaut.git)![](https://img.shields.io/github/stars/UT-Austin-RPL/Coopernaut.svg?style=social&label=Star&maxAge=2592000)
@@ -730,9 +905,13 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 ### Parameter Initialization
 
-- KING: Generating Safety-Critical Driving Scenarios for Robust Imitation via Kinematics Gradients [[ECCV2022]](https://arxiv.org/abs/2204.13683)[[Code]](https://github.com/autonomousvision/transfuser.git)![](https://img.shields.io/github/stars/autonomousvision/transfuser.svg?style=social&label=Star&maxAge=2592000)
+- SLEDGE: Synthesizing Driving Environments with Generative Models and Rule-Based Traffic [[ECCV2024]](https://arxiv.org/abs/2403.17933)[[Code]](https://github.com/autonomousvision/sledge)![](https://img.shields.io/github/stars/autonomousvision/sledge.svg?style=social&label=Star&maxAge=2592000)
 
-- TrafficGen: Learning to Generate Diverse and Realistic Traffic Scenarios [[ICRA2023]](https://arxiv.org/abs/2210.06609)[[code]](https://github.com/metadriverse/trafficgen)![](https://img.shields.io/github/stars/metadriverse/trafficgen.svg?style=social&label=Star&maxAge=2592000)
+- NAVSIM: Data-Driven Non-Reactive Autonomous Vehicle Simulation and Benchmarking [[arXiv2024]](https://arxiv.org/abs/2406.15349)[[Code]](https://github.com/autonomousvision/navsim)![](https://img.shields.io/github/stars/autonomousvision/navsim.svg?style=social&label=Star&maxAge=2592000)
+
+- TrafficGen: Learning to Generate Diverse and Realistic Traffic Scenarios [[ICRA2023]](https://arxiv.org/abs/2210.06609)[[Code]](https://github.com/metadriverse/trafficgen)![](https://img.shields.io/github/stars/metadriverse/trafficgen.svg?style=social&label=Star&maxAge=2592000)
+
+- KING: Generating Safety-Critical Driving Scenarios for Robust Imitation via Kinematics Gradients [[ECCV2022]](https://arxiv.org/abs/2204.13683)[[Code]](https://github.com/autonomousvision/transfuser.git)![](https://img.shields.io/github/stars/autonomousvision/transfuser.svg?style=social&label=Star&maxAge=2592000)
 
 - AdvSim: Generating Safety-Critical Scenarios for Self-Driving Vehicles [[CVPR2021]](https://openaccess.thecvf.com/content/CVPR2021/html/Wang_AdvSim_Generating_Safety-Critical_Scenarios_for_Self-Driving_Vehicles_CVPR_2021_paper.html)
 
@@ -748,9 +927,15 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 ### Traffic Simulation
 
+- Solving Motion Planning Tasks with a Scalable Generative Model [[ECCV2024]](https://arxiv.org/abs/2407.02797)[[Code]](https://github.com/HorizonRobotics/GUMP/)![](https://img.shields.io/github/stars/HorizonRobotics/GUMP.svg?style=social&label=Star&maxAge=2592000)
+
+- SMART: Scalable Multi-agent Real-time Simulation via Next-token Prediction [[arXiv2024]](https://arxiv.org/abs/2405.15677)
+
 - Data-driven Traffic Simulation: A Comprehensive Review [[arXiv2023]](https://arxiv.org/abs/2310.15975)
 
 - Scenario Diffusion: Controllable Driving Scenario Generation With Diffusion [[NeurIPS2023]](https://arxiv.org/abs/2311.02738)
+
+- ScenarioNet: Open-Source Platform for Large-Scale Traffic Scenario Simulation and Modeling [[NeurIPSDataset2023]](https://arxiv.org/abs/2306.12241)[[Code]](https://github.com/metadriverse/scenarionet)![](https://img.shields.io/github/stars/metadriverse/scenarionet.svg?style=social&label=Star&maxAge=2592000)
 
 - MixSim: A Hierarchical Framework for Mixed Reality Traffic Simulation [[CVPR2023]](https://openaccess.thecvf.com/content/CVPR2023/html/Suo_MixSim_A_Hierarchical_Framework_for_Mixed_Reality_Traffic_Simulation_CVPR_2023_paper.html)
 
@@ -758,9 +943,9 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 - TrafficBots: Towards World Models for Autonomous Driving Simulation and Motion Prediction [[arXiv2023]](https://arxiv.org/abs/2303.04116)
 
-- Language Conditioned Traffic Generation [[arXiv2023]](https://arxiv.org/abs/2307.07947)[[code]](https://github.com/Ariostgx/lctgen)![](https://img.shields.io/github/stars/Ariostgx/lctgen.svg?style=social&label=Star&maxAge=2592000)
+- Language Conditioned Traffic Generation [[arXiv2023]](https://arxiv.org/abs/2307.07947)[[Code]](https://github.com/Ariostgx/lctgen)![](https://img.shields.io/github/stars/Ariostgx/lctgen.svg?style=social&label=Star&maxAge=2592000)
 
-- TrafficGen: Learning to Generate Diverse and Realistic Traffic Scenarios [[ICRA2023]](https://arxiv.org/abs/2210.06609)[[code]](https://github.com/metadriverse/trafficgen)![](https://img.shields.io/github/stars/metadriverse/trafficgen.svg?style=social&label=Star&maxAge=2592000)
+- TrafficGen: Learning to Generate Diverse and Realistic Traffic Scenarios [[ICRA2023]](https://arxiv.org/abs/2210.06609)[[Code]](https://github.com/metadriverse/trafficgen)![](https://img.shields.io/github/stars/metadriverse/trafficgen.svg?style=social&label=Star&maxAge=2592000)
 
 - DriveSceneGen: Generating Diverse and Realistic Driving Scenarios from Scratch [[arXiv2023]](https://arxiv.org/abs/2309.14685)
 
@@ -776,6 +961,54 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 ### Sensor Simulation
 
+- Street Gaussians: Modeling Dynamic Urban Scenes with Gaussian Splatting [[ECCV2024]](https://arxiv.org/abs/2401.01339)[[Code]](https://github.com/zju3dv/street_gaussians)![](https://img.shields.io/github/stars/zju3dv/street_gaussians.svg?style=social&label=Star&maxAge=2592000)
+
+- A Hierarchical 3D Gaussian Representation for Real-Time Rendering of Very Large Datasets [[SIGGRAPH2024]](https://arxiv.org/abs/2406.12080)[[Code]](https://github.com/graphdeco-inria/hierarchical-3d-gaussians)![](https://img.shields.io/github/stars/graphdeco-inria/hierarchical-3d-gaussians.svg?style=social&label=Star&maxAge=2592000)
+
+- NeuRAD: Neural Rendering for Autonomous Driving [[CVPR2024]](https://arxiv.org/abs/2311.15260)[[Code]](https://github.com/georghess/neurad-studio)![](https://img.shields.io/github/stars/georghess/neurad-studio.svg?style=social&label=Star&maxAge=2592000)
+
+- Multi-Level Neural Scene Graphs for Dynamic Urban Environments [[CVPR2024]](https://arxiv.org/abs/2404.00168)[[Code]](https://github.com/tobiasfshr/map4d)![](https://img.shields.io/github/stars/tobiasfshr/map4d.svg?style=social&label=Star&maxAge=2592000)
+
+- Multiagent Multitraversal Multimodal Self-Driving: Open MARS Dataset [[CVPR2024]](https://arxiv.org/abs/2406.09383)[[Code]](https://github.com/ai4ce/MARS)![](https://img.shields.io/github/stars/ai4ce/MARS.svg?style=social&label=Star&maxAge=2592000)
+
+- HUGS: Holistic Urban 3D Scene Understanding via Gaussian Splatting [[CVPR2024]](https://arxiv.org/abs/2403.12722)[[Code]](https://github.com/hyzhou404/HUGS)![](https://img.shields.io/github/stars/hyzhou404/HUGS.svg?style=social&label=Star&maxAge=2592000)
+
+- DrivingGaussian: Composite Gaussian Splatting for Surrounding Dynamic Autonomous Driving Scenes [[CVPR2024]](https://arxiv.org/abs/2312.07920)[[Code]](https://github.com/VDIGPKU/DrivingGaussian)![](https://img.shields.io/github/stars/VDIGPKU/DrivingGaussian.svg?style=social&label=Star&maxAge=2592000)
+
+- Editable Scene Simulation for Autonomous Driving via Collaborative LLM-Agents [[CVPR2024]](https://arxiv.org/abs/2402.05746)[[Code]](https://github.com/yifanlu0227/ChatSim)![](https://img.shields.io/github/stars/yifanlu0227/ChatSim.svg?style=social&label=Star&maxAge=2592000)
+
+- LidaRF: Delving into Lidar for Neural Radiance Field on Street Scenes [[CVPR2024]](https://arxiv.org/abs/2405.00900)
+
+- LiDAR4D: Dynamic Neural Fields for Novel Space-time View LiDAR Synthesis [[CVPR2024]](https://arxiv.org/abs/2404.02742)[[Code]](https://github.com/ispc-lab/LiDAR4D)![](https://img.shields.io/github/stars/ispc-lab/LiDAR4D.svg?style=social&label=Star&maxAge=2592000)
+
+- PaReNeRF: Toward Fast Large-scale Dynamic NeRF with Patch-based Reference [[CVPR2024]](https://openaccess.thecvf.com/content/CVPR2024/html/Tang_PaReNeRF_Toward_Fast_Large-scale_Dynamic_NeRF_with_Patch-based_Reference_CVPR_2024_paper.html)
+
+- Dynamic LiDAR Re-simulation using Compositional Neural Fields [[CVPR2024]](https://arxiv.org/abs/2312.05247)[[Code]](https://github.com/prs-eth/Dynamic-LiDAR-Resimulation)![](https://img.shields.io/github/stars/prs-eth/Dynamic-LiDAR-Resimulation.svg?style=social&label=Star&maxAge=2592000)
+
+- Panacea: Panoramic and Controllable Video Generation for Autonomous Driving [[CVPR2024]](https://arxiv.org/abs/2311.16813)[[Code]](https://github.com/wenyuqing/panacea)![](https://img.shields.io/github/stars/wenyuqing/panacea.svg?style=social&label=Star&maxAge=2592000)
+
+- EmerNeRF: Emergent Spatial-Temporal Scene Decomposition via Self-Supervision [[ICLR2024]](https://arxiv.org/abs/2311.02077)[[Code]](https://github.com/NVlabs/EmerNeRF)![](https://img.shields.io/github/stars/NVlabs/EmerNeRF.svg?style=social&label=Star&maxAge=2592000)
+
+- UC-NeRF: Neural Radiance Field for Under-Calibrated Multi-view Cameras in Autonomous Driving [[ICLR2024]](https://arxiv.org/abs/2311.16945)[[Code]](https://github.com/kcheng1021/UC-NeRF)![](https://img.shields.io/github/stars/kcheng1021/UC-NeRF.svg?style=social&label=Star&maxAge=2592000)
+
+- S3Gaussian: Self-Supervised Street Gaussians for Autonomous Driving [[arXiv2024]](https://arxiv.org/abs/2405.20323)[[Code]](https://github.com/nnanhuang/S3Gaussian/)![](https://img.shields.io/github/stars/nnanhuang/S3Gaussian.svg?style=social&label=Star&maxAge=2592000)
+
+- AutoSplat: Constrained Gaussian Splatting for Autonomous Driving Scene Reconstruction [[arXiv2024]](https://arxiv.org/abs/2407.02598)
+
+- Dynamic 3D Gaussian Fields for Urban Areas [[arXiv2024]](https://arxiv.org/abs/2406.03175)[[Code]](https://github.com/tobiasfshr/map4d)![](https://img.shields.io/github/stars/tobiasfshr/map4d.svg?style=social&label=Star&maxAge=2592000)
+
+- MagicDrive3D: Controllable 3D Generation for Any-View Rendering in Street Scenes [[arXiv2024]](https://arxiv.org/abs/2405.14475)[[Code]](https://github.com/flymin/MagicDrive3D)![](https://img.shields.io/github/stars/flymin/MagicDrive3D.svg?style=social&label=Star&maxAge=2592000)
+
+- VDG: Vision-Only Dynamic Gaussian for Driving Simulation [[arXiv2024]](https://arxiv.org/abs/2406.18198)[[Code]](https://github.com/lifuguan/VDG_official)![](https://img.shields.io/github/stars/lifuguan/VDG_official.svg?style=social&label=Star&maxAge=2592000)
+
+- HO-Gaussian: Hybrid Optimization of 3D Gaussian Splatting for Urban Scenes [[arXiv2024]](https://arxiv.org/abs/2403.20032)
+
+- SGD: Street View Synthesis with Gaussian Splatting and Diffusion Prior [[arXiv2024]](https://arxiv.org/abs/2403.20079)
+
+- LightSim: Neural Lighting Simulation for Urban Scenes [[NeurIPS2023]](https://arxiv.org/abs/2312.06654)
+
+- Real-Time Neural Rasterization for Large Scenes [[ICCV2023]](https://arxiv.org/abs/2311.05607)
+
 - UniSim: A Neural Closed-Loop Sensor Simulator [[CVPR2023]](https://openaccess.thecvf.com/content/CVPR2023/html/Yang_UniSim_A_Neural_Closed-Loop_Sensor_Simulator_CVPR_2023_paper.html)
 
 - Learning Compact Representations for LiDAR Completion and Generation [[CVPR2023]](https://openaccess.thecvf.com/content/CVPR2023/html/Xiong_Learning_Compact_Representations_for_LiDAR_Completion_and_Generation_CVPR_2023_paper.html)
@@ -784,13 +1017,11 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 - Reconstructing Objects in-the-wild for Realistic Sensor Simulation [[ICRA2023]](https://arxiv.org/abs/2311.05602)
 
-- Enhancing Photorealism Enhancement [[TPAMI2023]](https://arxiv.org/abs/2105.04619)[[code]](https://github.com/isl-org/PhotorealismEnhancement)![](https://img.shields.io/github/stars/isl-org/PhotorealismEnhancement.svg?style=social&label=Star&maxAge=2592000)
+- Enhancing Photorealism Enhancement [[TPAMI2023]](https://arxiv.org/abs/2105.04619)[[Code]](https://github.com/isl-org/PhotorealismEnhancement)![](https://img.shields.io/github/stars/isl-org/PhotorealismEnhancement.svg?style=social&label=Star&maxAge=2592000)
 
-- UrbanGIRAFFE: Representing Urban Scenes as Compositional Generative Neural Feature Fields [[ICCV2023]](https://arxiv.org/abs/2303.14167)[[code]](https://github.com/freemty/urbanGIRAFFE)![](https://img.shields.io/github/stars/freemty/urbanGIRAFFE.svg?style=social&label=Star&maxAge=2592000)
+- UrbanGIRAFFE: Representing Urban Scenes as Compositional Generative Neural Feature Fields [[ICCV2023]](https://arxiv.org/abs/2303.14167)[[Code]](https://github.com/freemty/urbanGIRAFFE)![](https://img.shields.io/github/stars/freemty/urbanGIRAFFE.svg?style=social&label=Star&maxAge=2592000)
 
-- NeuRAD: Neural Rendering for Autonomous Driving [[arXiv2023]](https://arxiv.org/abs/2311.15260)[[code]](https://github.com/georghess/NeuRAD)![](https://img.shields.io/github/stars/georghess/NeuRAD.svg?style=social&label=Star&maxAge=2592000)
-
-- MARS: An Instance-aware, Modular and Realistic Simulator for Autonomous Driving [[CICAI2023]](https://arxiv.org/abs/2307.15058)[[code]](https://github.com/OPEN-AIR-SUN/mars)![](https://img.shields.io/github/stars/OPEN-AIR-SUN/mars.svg?style=social&label=Star&maxAge=2592000)
+- MARS: An Instance-aware, Modular and Realistic Simulator for Autonomous Driving [[CICAI2023]](https://arxiv.org/abs/2307.15058)[[Code]](https://github.com/OPEN-AIR-SUN/mars)![](https://img.shields.io/github/stars/OPEN-AIR-SUN/mars.svg?style=social&label=Star&maxAge=2592000)
 
 - Mega-NERF: Scalable Construction of Large-Scale NeRFs for Virtual Fly-Throughs [[CVPR2022]](https://openaccess.thecvf.com/content/CVPR2022/html/Turki_Mega-NERF_Scalable_Construction_of_Large-Scale_NeRFs_for_Virtual_Fly-Throughs_CVPR_2022_paper.html)
 
@@ -798,9 +1029,9 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 - CADSim: Robust and Scalable in-the-wild 3D Reconstruction for Controllable Sensor Simulation [[CoRL2022]](https://openreview.net/forum?id=Mp3Y5jd7rnW)
 
-- VISTA 2.0: An Open, Data-driven Simulator for Multimodal Sensing and Policy Learning for Autonomous Vehicles [[ICRA2022]](https://arxiv.org/abs/2111.12083)[[code]](https://github.com/vista-simulator/vista)![](https://img.shields.io/github/stars/vista-simulator/vista.svg?style=social&label=Star&maxAge=2592000)
+- VISTA 2.0: An Open, Data-driven Simulator for Multimodal Sensing and Policy Learning for Autonomous Vehicles [[ICRA2022]](https://arxiv.org/abs/2111.12083)[[Code]](https://github.com/vista-simulator/vista)![](https://img.shields.io/github/stars/vista-simulator/vista.svg?style=social&label=Star&maxAge=2592000)
 
-- Learning Interactive Driving Policies via Data-driven Simulation [[ICRA2022]](https://arxiv.org/abs/2111.12137)[[code]](https://github.com/vista-simulator/vista)![](https://img.shields.io/github/stars/vista-simulator/vista.svg?style=social&label=Star&maxAge=2592000)
+- Learning Interactive Driving Policies via Data-driven Simulation [[ICRA2022]](https://arxiv.org/abs/2111.12137)[[Code]](https://github.com/vista-simulator/vista)![](https://img.shields.io/github/stars/vista-simulator/vista.svg?style=social&label=Star&maxAge=2592000)
 
 
 - Learning Robust Control Policies for End-to-End Autonomous Driving From Data-Driven Simulation [[RAL2020]](https://ieeexplore.ieee.org/abstract/document/8957584)

@@ -26,7 +26,7 @@ The autonomous driving community has witnessed a rapid growth in approaches that
 
 > [**End-to-end Autonomous Driving: Challenges and Frontiers**](https://arxiv.org/abs/2306.16927)
 >
-> [Li Chen](https://scholar.google.com/citations?user=ulZxvY0AAAAJ&hl=en&authuser=1)<sup>1,2</sup>, [Penghao Wu](https://scholar.google.com/citations?user=9mssd5EAAAAJ&hl=en)<sup>1</sup>, [Kashyap Chitta](https://kashyap7x.github.io/)<sup>3,4</sup>, [Bernhard Jaeger](https://kait0.github.io/)<sup>3,4</sup>, [Andreas Geiger](https://www.cvlibs.net/)<sup>3,4</sup>, and [Hongyang Li](https://lihongyang.info/)<sup>2,1</sup>
+> [Li Chen](https://scholar.google.com/citations?user=ulZxvY0AAAAJ&hl=en&authuser=1)<sup>1,2</sup>, [Penghao Wu](https://penghao-wu.github.io)<sup>1</sup>, [Kashyap Chitta](https://kashyap7x.github.io/)<sup>3,4</sup>, [Bernhard Jaeger](https://kait0.github.io/)<sup>3,4</sup>, [Andreas Geiger](https://www.cvlibs.net/)<sup>3,4</sup>, and [Hongyang Li](https://lihongyang.info/)<sup>1,2</sup>
 > 
 > <sup>1</sup> OpenDriveLab, Shanghai AI Lab, <sup>2</sup> University of Hong Kong, <sup>3</sup> University of Tübingen, <sup>4</sup> Tübingen AI Center
 >
@@ -95,11 +95,14 @@ If you find some useful related materials, shoot us an email or simply open a PR
 We list key challenges from a wide span of candidate concerns, as well as trending methodologies. Please refer to [this page](./papers.md) for the full list, and the [survey paper](https://arxiv.org/abs/2306.16927) for detailed discussions.
 
 - [Survey](./papers.md#survey)
-- [Languag for Driving](./papers.md#language-for-driving)
+- [Language / VLM for Driving](./papers.md#language--vlm-for-driving)
+  - [Review for VLM in Driving](./papers.md#review-for-vlm-in-driving)
+  - [Papers for VLM in Driving](./papers.md#papers-for-vlm-in-driving)
 - [World Model & Model-based RL](./papers.md#world-model--model-based-rl)
 - [Multi-sensor Fusion](./papers.md#multi-sensor-fusion)
 - [Multi-task Learning](./papers.md#multi-task-learning)
 - [Interpretability](./papers.md#interpretability)
+  - [Review for Interpretability](./papers.md#review-for-interpretability)
   - [Attention Visualization](./papers.md#attention-visualization)
   - [Interpretable Tasks](./papers.md#interpretable-tasks)
   - [Cost Learning](./papers.md#cost-learning)
