@@ -173,8 +173,6 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 <!-- <details><summary>(Click for details)</summary> -->
 
-- An Examination of Offline-Trained Encoders in Vision-Based Deep Reinforcement Learning for Autonomous Driving [[CASE2024]](https://ieeexplore.ieee.org/document/10711548)
-
 - Think2Drive: Efficient Reinforcement Learning by Thinking in Latent World Model for Quasi-Realistic Autonomous Driving (in CARLA-v2) [[ECCV2024]](https://arxiv.org/abs/2402.16720)
 
 - WoVoGen: World Volume-aware Diffusion for Controllable Multi-camera Driving Scene Generation [[ECCV2024]](https://arxiv.org/abs/2312.02934)[[Code]](https://github.com/fudan-zvg/WoVoGen)![](https://img.shields.io/github/stars/fudan-zvg/WoVoGen.svg?style=social&label=Star&maxAge=2592000)
