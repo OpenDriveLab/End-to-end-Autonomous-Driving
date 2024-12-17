@@ -130,6 +130,9 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 ## Benchmarks and Datasets
 
+> In any case, Real-World Deployment is the STRONGEST benchmark.  
+> However, for academic researchers, we recommend you read this Writeup from Bernhard et al.: [Common mistakes in benchmarking](https://github.com/autonomousvision/carla_garage/blob/leaderboard_2/docs/common_mistakes_in_benchmarking_ad.md).
+
 **Closed-loop**
 - [CARLA](https://leaderboard.carla.org/leaderboard/)
   - [Leaderboard 1.0](https://leaderboard.carla.org/get_started_v1/)
