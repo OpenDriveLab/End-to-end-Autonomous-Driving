@@ -130,8 +130,8 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 ## Benchmarks and Datasets
 
-> In any case, Real-World Deployment is the STRONGEST benchmark.  
-> However, for academic researchers, we recommend you read this Writeup from Bernhard et al.: [Common mistakes in benchmarking](https://github.com/autonomousvision/carla_garage/blob/leaderboard_2/docs/common_mistakes_in_benchmarking_ad.md).
+> Real-world deployment is the final benchmark for autonomous driving.
+> However, testing in the real world is expensive. For academic benchmarking, we recommend you read this write-up from Jaeger et al. 2024: [Common mistakes in benchmarking](https://github.com/autonomousvision/carla_garage/blob/leaderboard_2/docs/common_mistakes_in_benchmarking_ad.md).
 
 **Closed-loop**
 - [CARLA](https://leaderboard.carla.org/leaderboard/)
