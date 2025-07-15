@@ -963,6 +963,8 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 ### Sensor Simulation
 
+- SplatAD: Real-Time Lidar and Camera Rendering with 3D Gaussian Splatting for Autonomous Driving [[arXiv2024]](https://arxiv.org/abs/2411.16816)[[Code]](https://github.com/carlinds/splatad)![](https://img.shields.io/github/stars/carlinds/splatad.svg?style=social&label=Star&maxAge=2592000)
+
 - Street Gaussians: Modeling Dynamic Urban Scenes with Gaussian Splatting [[ECCV2024]](https://arxiv.org/abs/2401.01339)[[Code]](https://github.com/zju3dv/street_gaussians)![](https://img.shields.io/github/stars/zju3dv/street_gaussians.svg?style=social&label=Star&maxAge=2592000)
 
 - A Hierarchical 3D Gaussian Representation for Real-Time Rendering of Very Large Datasets [[SIGGRAPH2024]](https://arxiv.org/abs/2406.12080)[[Code]](https://github.com/graphdeco-inria/hierarchical-3d-gaussians)![](https://img.shields.io/github/stars/graphdeco-inria/hierarchical-3d-gaussians.svg?style=social&label=Star&maxAge=2592000)
