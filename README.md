@@ -141,7 +141,7 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
   - [Leaderboard 1.0](https://leaderboard.carla.org/get_started_v1/)
   - [Leaderboard 2.0](https://leaderboard.carla.org/get_started/)
 - [nuPlan](https://www.nuscenes.org/nuplan)
-  - [Leaderboard](https://eval.ai/web/challenges/challenge-page/1856/overview) (inactive after the CVPR 2023 challege)
+  - [Leaderboard](https://eval.ai/web/challenges/challenge-page/1856/overview) (inactive after the CVPR 2023 challenge)
   - [NAVSIM](https://github.com/autonomousvision/navsim)
 
 <details>
