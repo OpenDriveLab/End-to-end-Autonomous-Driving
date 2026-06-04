@@ -154,6 +154,8 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
   
 </details>
 
+- [StandardE2E](https://github.com/stepankonev/StandardE2E): A Unified Framework for End-to-End Autonomous Driving Datasets
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Competitions / Challenges
