@@ -173,6 +173,8 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 
 <!-- <details><summary>(Click for details)</summary> -->
 
+- DriveVA: Video Action Models Are Zero-Shot Drivers [[ECCV2026]](https://link.springer.com/chapter/10.1007/978-3-032-37718-0_19)[[Code]](https://github.com/xiaomi-mlab/DriveVA)![](https://img.shields.io/github/stars/xiaomi-mlab/DriveVA.svg?style=social&label=Star&maxAge=2592000)
+
 - Think2Drive: Efficient Reinforcement Learning by Thinking in Latent World Model for Quasi-Realistic Autonomous Driving (in CARLA-v2) [[ECCV2024]](https://arxiv.org/abs/2402.16720)
 
 - WoVoGen: World Volume-aware Diffusion for Controllable Multi-camera Driving Scene Generation [[ECCV2024]](https://arxiv.org/abs/2312.02934)[[Code]](https://github.com/fudan-zvg/WoVoGen)![](https://img.shields.io/github/stars/fudan-zvg/WoVoGen.svg?style=social&label=Star&maxAge=2592000)
